@@ -2,6 +2,8 @@ a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(a)
 
 print(a[3])
+print(a[-1])
+print(a[-3])
 
 a[3] = 10
 print(a)
