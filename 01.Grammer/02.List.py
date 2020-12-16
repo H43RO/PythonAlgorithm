@@ -30,3 +30,42 @@ print(a)
 
 a = [i * i for i in range(1, 10)]
 print(a)
+
+# N X M 크기의 2차원 리스트를 초기화할 때 효과적
+# ex) 4 X 3 크기의 2차원 리스트를 초기화
+array = [[0] * 3 for _ in range(4)]
+print(array)
+print()
+
+# append() : 원소 하나 삽입할 때
+# sort() : 오름차순으로 정렬
+# sort(reverse=True) : 내림차순으로 정렬
+# reverse() : 리스트를 뒤집음
+# insert(index, value) : index 에 value 를 삽입
+# count(value) : value 가 리스트에 몇 개 있는지
+# remove(value) : value 를 갖는 원소 제거, 해당 원소가 여러 개면 하나만 제거
+
+a = [1, 4, 3]
+print(a)
+
+a.append(2)
+print(a)
+
+a.sort()
+print(a)
+
+a.reverse()
+print(a)
+
+print(a.count(3))
+
+a.remove(1)
+print(a)
+print()
+
+# 리스트에서 특정 값을 가지는 원소를 모두 제거하기
+a = [1, 2, 3, 4, 5, 5, 5]
+remove_set = {3, 5}
+
+result = [i for i in a if i not in remove_set]
+print(result)
