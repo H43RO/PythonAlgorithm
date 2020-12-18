@@ -13,3 +13,14 @@ print(data.values())
 
 for key in data.keys():
     print(key)
+
+b = {
+    '홍길동': 96,
+    '이순신': 98
+}
+
+print(b)
+print(b['홍길동'])
+print(b.keys())
+key_list = list(b.keys())  # List Type 으로 캐스팅
+print(key_list)
