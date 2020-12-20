@@ -39,3 +39,23 @@ data = ['A', 'B', 'C']
 
 result = list(combinations_with_replacement(data, 2))  # 중복 조합
 print(result)
+
+from collections import Counter
+
+counter = Counter(['red', 'blue', 'red', 'green', 'blue', 'blue'])
+
+print(counter['blue'])  # blue 등장 횟수
+print(counter['green'])  # green 등장 횟수
+print(counter['red'])  # red 등장 횟수
+print()
+
+import math
+
+# 최소 공배수 (LCM) 를 구하는 함수
+def lcm(a, b):
+    return a * b // math.gcd(a, b)
+
+a = 21
+b = 14
+print(math.gcd(a, b))  # 최대 공약수
+print(lcm(a, b))  # 최소 공배수
