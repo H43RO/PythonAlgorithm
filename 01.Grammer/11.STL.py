@@ -59,3 +59,5 @@ a = 21
 b = 14
 print(math.gcd(a, b))  # 최대 공약수
 print(lcm(a, b))  # 최소 공배수
+
+print(math.pi)
