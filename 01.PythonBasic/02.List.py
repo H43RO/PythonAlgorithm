@@ -69,3 +69,21 @@ remove_set = {3, 5}
 
 result = [i for i in a if i not in remove_set]
 print(result)
+print()
+
+
+def solution(n, lost, reserve):
+    answer = 0
+    answer += (n - len(lost))
+
+    for i in range(0, len(reserve)):
+        if answer >= n:
+            return answer
+
+        if reserve[i] - 1 in lost or reserve[i] + 1 in lost:
+            answer += 1
+
+    return answer
+
+
+print(solution(5, [2, 4], [3, 4]))
