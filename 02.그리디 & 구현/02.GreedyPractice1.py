@@ -47,7 +47,7 @@ count = 0
 
 while True:
     # N 이 K 로 나누어 떨어지는 수가 될 때까지 빼기
-    target = (n // k) * k
+    target = (n // k) * k  # n 이 k 로 나누어 떨어지지 않을 때, 가장 가까운 k 로 나누어 떨어지는 수 찾기
     count += (n - target)
     n = target
 
@@ -59,6 +59,6 @@ while True:
     count += 1
     n //= k
 
-# 마지막 남은 수에 대하여 1씩 빼기
+# 마지막 남은 수에 대하여 1 빼기
 count += (n - 1)
 print(count)
