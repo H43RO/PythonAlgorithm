@@ -62,8 +62,8 @@ def my_key(x):
     return x[1]
 
 
-print(sorted(array, key=my_key))
-print(sorted(array, key=lambda x: x[1]))
+print(sorted(array, key=my_key))  # Tuple 의 1 번째 요소를 기준으로 오름차순 정렬
+print(sorted(array, key=lambda x: x[1]))  # 같은 동작을 Lambda 를 통해 구현
 
 list1 = [1, 2, 3, 4, 5]
 list2 = [6, 7, 8, 9, 10]
