@@ -33,6 +33,8 @@ def solution(number, k):
 
     return answer.join(arr)
 
+print(solution("1234", 2))
+
 
 # 다른 분 정답 (문자열 슬라이싱 사용)
 # def solution(number, k):
