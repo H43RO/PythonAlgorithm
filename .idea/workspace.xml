@@ -23,9 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03.Implementation/04.ImplementPractice3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00.Solve/Programmers/Greedy/JoyStick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04.DFS&amp;BFS/01.Stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04.DFS&amp;BFS/02.Queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04.DFS&amp;BFS/Recursive.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.Implementation/03.ImplementPractice2.py" beforeDir="false" afterPath="$PROJECT_DIR$/03.Implementation/03.ImplementPractice2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Python.04.ImplementPractice3">
+  <component name="RunManager" selected="Python.JoyStick">
     <configuration name="01.Implementation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BigNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="JoyStick" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,11 +163,11 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00.Solve/Programmers/Greedy" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/Programmers/Greedy/BigNumber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/Programmers/Greedy/JoyStick.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.JoyStick" />
         <item itemvalue="Python.04.ImplementPractice3" />
         <item itemvalue="Python.03.ImplementPractice2" />
         <item itemvalue="Python.02.ImplementPractice1" />
         <item itemvalue="Python.01.Implementation" />
-        <item itemvalue="Python.BigNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +219,8 @@
       <workItem from="1608399030709" duration="26797000" />
       <workItem from="1608554235558" duration="1003000" />
       <workItem from="1608566518978" duration="83000" />
-      <workItem from="1608566621995" duration="7168000" />
+      <workItem from="1608566621995" duration="13562000" />
+      <workItem from="1608730853314" duration="468000" />
     </task>
     <servers />
   </component>
@@ -245,30 +248,34 @@
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="720" y="281" key="Github.UntrackedFilesDialog/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608399246148" />
-    <state width="854" height="232" key="GridCell.Tab.0.bottom" timestamp="1608578320538">
-      <screen x="0" y="25" width="1792" height="1026" />
+    <state width="854" height="232" key="GridCell.Tab.0.bottom" timestamp="1608730701275">
+      <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="854" height="232" key="GridCell.Tab.0.bottom/0.25.1792.1026@0.25.1792.1026" timestamp="1608578320538" />
+    <state width="854" height="232" key="GridCell.Tab.0.bottom/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693921" />
     <state width="1750" height="252" key="GridCell.Tab.0.bottom/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273550" />
     <state width="918" height="252" key="GridCell.Tab.0.bottom/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501261" />
-    <state width="854" height="232" key="GridCell.Tab.0.center" timestamp="1608578320537">
-      <screen x="0" y="25" width="1792" height="1026" />
+    <state width="854" height="232" key="GridCell.Tab.0.bottom/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701275" />
+    <state width="854" height="232" key="GridCell.Tab.0.center" timestamp="1608730701275">
+      <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="854" height="232" key="GridCell.Tab.0.center/0.25.1792.1026@0.25.1792.1026" timestamp="1608578320537" />
+    <state width="854" height="232" key="GridCell.Tab.0.center/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693921" />
     <state width="1750" height="252" key="GridCell.Tab.0.center/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273549" />
     <state width="918" height="252" key="GridCell.Tab.0.center/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501260" />
-    <state width="854" height="232" key="GridCell.Tab.0.left" timestamp="1608578320536">
-      <screen x="0" y="25" width="1792" height="1026" />
+    <state width="854" height="232" key="GridCell.Tab.0.center/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701275" />
+    <state width="854" height="232" key="GridCell.Tab.0.left" timestamp="1608730701237">
+      <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="854" height="232" key="GridCell.Tab.0.left/0.25.1792.1026@0.25.1792.1026" timestamp="1608578320536" />
+    <state width="854" height="232" key="GridCell.Tab.0.left/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693920" />
     <state width="1750" height="252" key="GridCell.Tab.0.left/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273549" />
     <state width="918" height="252" key="GridCell.Tab.0.left/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501260" />
-    <state width="854" height="232" key="GridCell.Tab.0.right" timestamp="1608578320537">
-      <screen x="0" y="25" width="1792" height="1026" />
+    <state width="854" height="232" key="GridCell.Tab.0.left/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701237" />
+    <state width="854" height="232" key="GridCell.Tab.0.right" timestamp="1608730701275">
+      <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="854" height="232" key="GridCell.Tab.0.right/0.25.1792.1026@0.25.1792.1026" timestamp="1608578320537" />
+    <state width="854" height="232" key="GridCell.Tab.0.right/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693921" />
     <state width="1750" height="252" key="GridCell.Tab.0.right/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273550" />
     <state width="918" height="252" key="GridCell.Tab.0.right/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501261" />
+    <state width="854" height="232" key="GridCell.Tab.0.right/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701275" />
     <state x="2417" y="31" width="670" height="676" key="search.everywhere.popup" timestamp="1608482949889">
       <screen x="1792" y="-186" width="1920" height="986" />
     </state>
@@ -281,6 +288,7 @@
     <SUITE FILE_PATH="coverage/PythonAlgorithm$08_Condition.coverage" NAME="08.Condition Coverage Results" MODIFIED="1608463574156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.Grammer" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$BigNumber.coverage" NAME="BigNumber Coverage Results" MODIFIED="1608495501254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/Programmers/Greedy" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$01_Implementation.coverage" NAME="01.Implementation Coverage Results" MODIFIED="1608567720633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03.Implementation" />
+    <SUITE FILE_PATH="coverage/PythonAlgorithm$JoyStick.coverage" NAME="JoyStick Coverage Results" MODIFIED="1608636693914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/Programmers/Greedy" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$10_Lambda.coverage" NAME="10.Lambda Coverage Results" MODIFIED="1608465820086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.Grammer" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$2.coverage" NAME="2 Coverage Results" MODIFIED="1608399064844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$04_Tuple.coverage" NAME="04.Tuple Coverage Results" MODIFIED="1608459670425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.Grammer" />
