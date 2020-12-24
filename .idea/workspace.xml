@@ -22,13 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00.Solve/Programmers/Greedy/JoyStick.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.DFS&amp;BFS/01.Stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.DFS&amp;BFS/02.Queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04.DFS&amp;BFS/Recursive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,8 +59,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Python.JoyStick">
-    <configuration name="01.Implementation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.02.Queue">
+    <configuration name="01.Stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,12 +68,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.Implementation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.DFS&amp;BFS" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.Implementation/01.Implementation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.DFS&amp;BFS/01.Stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02.ImplementPractice1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02.Queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,12 +90,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03.Implementation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04.DFS&amp;BFS" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.Implementation/02.ImplementPractice1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.DFS&amp;BFS/02.Queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02.Queue" />
+        <item itemvalue="Python.01.Stack" />
         <item itemvalue="Python.JoyStick" />
         <item itemvalue="Python.04.ImplementPractice3" />
         <item itemvalue="Python.03.ImplementPractice2" />
-        <item itemvalue="Python.02.ImplementPractice1" />
-        <item itemvalue="Python.01.Implementation" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +214,7 @@
       <workItem from="1608554235558" duration="1003000" />
       <workItem from="1608566518978" duration="83000" />
       <workItem from="1608566621995" duration="13562000" />
-      <workItem from="1608730853314" duration="468000" />
+      <workItem from="1608730853314" duration="777000" />
     </task>
     <servers />
   </component>
