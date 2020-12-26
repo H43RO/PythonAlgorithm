@@ -30,6 +30,7 @@ for i in range(n):
 
 result = 0
 
+
 # DFS 로 특정 노드를 방문하고 연결된 모든 노드들도 방문
 def dfs(x, y):
     # 주어진 범위를 벗어나는 경우 즉시 종료
@@ -48,13 +49,15 @@ def dfs(x, y):
         return True
     return False
 
+
 # 모든 노드에 대하여 음료수 채우기
+# - N X M 노드를 모두 탐색하면서, DFS 결과가 True 일 때마다 Result 를 1 증가함
+# - DFS 를 수행하면, 결과적으로 시작점으로부터 인접한 '0' 값을 가진 모든 노드 들의 값을 1 로 변경하기 때문에
+#   아이스크림이 총 몇 개 나오는지 ('0' 값을 가진 서로 인접한 노드의 묶음) 알 수 있음
+
 for i in range(n):
     for j in range(m):
         if dfs(i, j) == True:
             result += 1
 
 print(result)
-
-
-
