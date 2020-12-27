@@ -23,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/1000-2000/1152.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/1000-2000/1157.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2675.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2908.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/1000-2000/1316.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2941.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/5000-6000/5622.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,29 +64,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Python.2908">
-    <configuration name="10809" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonAlgorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00.Solve/BOJ/10000-11000" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/10000-11000/10809.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.2941">
     <configuration name="1152" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,28 +109,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2675" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonAlgorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00.Solve/BOJ/2000-3000" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2675.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="2908" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,6 +123,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2908.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2941" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAlgorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00.Solve/BOJ/2000-3000" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2941.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5622" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAlgorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00.Solve/BOJ/5000-6000" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/5000-6000/5622.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2941" />
+        <item itemvalue="Python.5622" />
         <item itemvalue="Python.2908" />
         <item itemvalue="Python.1152" />
         <item itemvalue="Python.1157" />
-        <item itemvalue="Python.2675" />
-        <item itemvalue="Python.10809" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +219,7 @@
       <workItem from="1608554235558" duration="1003000" />
       <workItem from="1608566518978" duration="83000" />
       <workItem from="1608566621995" duration="13562000" />
-      <workItem from="1608730853314" duration="19784000" />
+      <workItem from="1608730853314" duration="23092000" />
     </task>
     <servers />
   </component>
@@ -248,38 +247,38 @@
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="720" y="281" key="Github.UntrackedFilesDialog/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608399246148" />
-    <state width="918" height="187" key="GridCell.Tab.0.bottom" timestamp="1609077823263">
+    <state width="918" height="187" key="GridCell.Tab.0.bottom" timestamp="1609081848893">
       <screen x="1792" y="-186" width="1920" height="986" />
     </state>
     <state width="854" height="232" key="GridCell.Tab.0.bottom/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693921" />
     <state width="1750" height="252" key="GridCell.Tab.0.bottom/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273550" />
     <state width="918" height="252" key="GridCell.Tab.0.bottom/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501261" />
     <state width="854" height="232" key="GridCell.Tab.0.bottom/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701275" />
-    <state width="918" height="187" key="GridCell.Tab.0.bottom/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609077823263" />
-    <state width="918" height="187" key="GridCell.Tab.0.center" timestamp="1609077823262">
+    <state width="918" height="187" key="GridCell.Tab.0.bottom/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609081848893" />
+    <state width="918" height="187" key="GridCell.Tab.0.center" timestamp="1609081848893">
       <screen x="1792" y="-186" width="1920" height="986" />
     </state>
     <state width="854" height="232" key="GridCell.Tab.0.center/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693921" />
     <state width="1750" height="252" key="GridCell.Tab.0.center/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273549" />
     <state width="918" height="252" key="GridCell.Tab.0.center/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501260" />
     <state width="854" height="232" key="GridCell.Tab.0.center/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701275" />
-    <state width="918" height="187" key="GridCell.Tab.0.center/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609077823262" />
-    <state width="918" height="187" key="GridCell.Tab.0.left" timestamp="1609077823262">
+    <state width="918" height="187" key="GridCell.Tab.0.center/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609081848893" />
+    <state width="918" height="187" key="GridCell.Tab.0.left" timestamp="1609081848892">
       <screen x="1792" y="-186" width="1920" height="986" />
     </state>
     <state width="854" height="232" key="GridCell.Tab.0.left/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693920" />
     <state width="1750" height="252" key="GridCell.Tab.0.left/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273549" />
     <state width="918" height="252" key="GridCell.Tab.0.left/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501260" />
     <state width="854" height="232" key="GridCell.Tab.0.left/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701237" />
-    <state width="918" height="187" key="GridCell.Tab.0.left/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609077823262" />
-    <state width="918" height="187" key="GridCell.Tab.0.right" timestamp="1609077823263">
+    <state width="918" height="187" key="GridCell.Tab.0.left/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609081848892" />
+    <state width="918" height="187" key="GridCell.Tab.0.right" timestamp="1609081848893">
       <screen x="1792" y="-186" width="1920" height="986" />
     </state>
     <state width="854" height="232" key="GridCell.Tab.0.right/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693921" />
     <state width="1750" height="252" key="GridCell.Tab.0.right/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273550" />
     <state width="918" height="252" key="GridCell.Tab.0.right/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501261" />
     <state width="854" height="232" key="GridCell.Tab.0.right/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701275" />
-    <state width="918" height="187" key="GridCell.Tab.0.right/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609077823263" />
+    <state width="918" height="187" key="GridCell.Tab.0.right/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609081848893" />
     <state x="2417" y="31" width="670" height="676" key="search.everywhere.popup" timestamp="1608482949889">
       <screen x="1792" y="-186" width="1920" height="986" />
     </state>
@@ -290,6 +289,7 @@
     <SUITE FILE_PATH="coverage/PythonAlgorithm$02_Queue.coverage" NAME="02.Queue Coverage Results" MODIFIED="1608968830489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04.DFS&amp;BFS" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$09_Loop.coverage" NAME="09.Loop Coverage Results" MODIFIED="1608464444186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.Grammer" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$01_Number.coverage" NAME="01.Number Coverage Results" MODIFIED="1608471183048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.파이썬 문법 및 STL" />
+    <SUITE FILE_PATH="coverage/PythonAlgorithm$2941.coverage" NAME="2941 Coverage Results" MODIFIED="1609081848887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/2000-3000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$01_Implementation.coverage" NAME="01.Implementation Coverage Results" MODIFIED="1608567720633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03.Implementation" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$JoyStick.coverage" NAME="JoyStick Coverage Results" MODIFIED="1608636693914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/Programmers/Greedy" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$01_Stack.coverage" NAME="01.Stack Coverage Results" MODIFIED="1608968767463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04.DFS&amp;BFS" />
@@ -304,9 +304,10 @@
     <SUITE FILE_PATH="coverage/PythonAlgorithm$07_IO.coverage" NAME="07.IO Coverage Results" MODIFIED="1608460915679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.Grammer" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$main.coverage" NAME="main Coverage Results" MODIFIED="1608399062003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$07_DFS_BFS_Practice.coverage" NAME="07.DFS&amp;BFS_Practice2 Coverage Results" MODIFIED="1608985026129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04.DFS&amp;BFS" />
+    <SUITE FILE_PATH="coverage/PythonAlgorithm$5622.coverage" NAME="5622 Coverage Results" MODIFIED="1609079484026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/5000-6000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$04_GreedyPractice3.coverage" NAME="04.GreedyPractice3 Coverage Results" MODIFIED="1608474257230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.그리디 &amp; 구현" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$03_String.coverage" NAME="03.String Coverage Results" MODIFIED="1608459576398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.Grammer" />
-    <SUITE FILE_PATH="coverage/PythonAlgorithm$2908.coverage" NAME="2908 Coverage Results" MODIFIED="1609077823257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/2000-3000" />
+    <SUITE FILE_PATH="coverage/PythonAlgorithm$2908.coverage" NAME="2908 Coverage Results" MODIFIED="1609077847685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/2000-3000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$1260.coverage" NAME="1260 Coverage Results" MODIFIED="1609070832089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/1000-2000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$2675.coverage" NAME="2675 Coverage Results" MODIFIED="1609073282439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/2000-3000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$06_DFS_BFS_Practice1.coverage" NAME="06.DFS&amp;BFS_Practice1 Coverage Results" MODIFIED="1608973198040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04.DFS&amp;BFS" />
