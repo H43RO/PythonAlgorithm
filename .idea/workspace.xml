@@ -23,8 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/05.Sort/04.CountingSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05.Sort/05.SortPractice1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2750.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,29 +62,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Python.05.SortPractice1">
-    <configuration name="01.SelectionSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonAlgorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/05.Sort" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05.Sort/01.SelectionSort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.2750">
     <configuration name="02.InsertionSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,6 +151,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="2750" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAlgorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00.Solve/BOJ/2000-3000" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2750.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2750" />
         <item itemvalue="Python.05.SortPractice1" />
         <item itemvalue="Python.04.CountingSort" />
         <item itemvalue="Python.03.QuickSort" />
         <item itemvalue="Python.02.InsertionSort" />
-        <item itemvalue="Python.01.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +218,7 @@
       <workItem from="1608566518978" duration="83000" />
       <workItem from="1608566621995" duration="13562000" />
       <workItem from="1608730853314" duration="26066000" />
-      <workItem from="1609143703569" duration="14783000" />
+      <workItem from="1609143703569" duration="15614000" />
     </task>
     <servers />
   </component>
@@ -247,38 +246,38 @@
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="720" y="281" key="Github.UntrackedFilesDialog/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608399246148" />
-    <state width="1878" height="187" key="GridCell.Tab.0.bottom" timestamp="1609171490395">
+    <state width="1878" height="187" key="GridCell.Tab.0.bottom" timestamp="1609173512645">
       <screen x="1792" y="-186" width="1920" height="986" />
     </state>
     <state width="854" height="232" key="GridCell.Tab.0.bottom/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693921" />
     <state width="1750" height="252" key="GridCell.Tab.0.bottom/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273550" />
     <state width="918" height="252" key="GridCell.Tab.0.bottom/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501261" />
     <state width="854" height="232" key="GridCell.Tab.0.bottom/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701275" />
-    <state width="1878" height="187" key="GridCell.Tab.0.bottom/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609171490395" />
-    <state width="1878" height="187" key="GridCell.Tab.0.center" timestamp="1609171490395">
+    <state width="1878" height="187" key="GridCell.Tab.0.bottom/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609173512645" />
+    <state width="1878" height="187" key="GridCell.Tab.0.center" timestamp="1609173512644">
       <screen x="1792" y="-186" width="1920" height="986" />
     </state>
     <state width="854" height="232" key="GridCell.Tab.0.center/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693921" />
     <state width="1750" height="252" key="GridCell.Tab.0.center/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273549" />
     <state width="918" height="252" key="GridCell.Tab.0.center/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501260" />
     <state width="854" height="232" key="GridCell.Tab.0.center/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701275" />
-    <state width="1878" height="187" key="GridCell.Tab.0.center/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609171490395" />
-    <state width="1878" height="187" key="GridCell.Tab.0.left" timestamp="1609171490394">
+    <state width="1878" height="187" key="GridCell.Tab.0.center/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609173512644" />
+    <state width="1878" height="187" key="GridCell.Tab.0.left" timestamp="1609173512644">
       <screen x="1792" y="-186" width="1920" height="986" />
     </state>
     <state width="854" height="232" key="GridCell.Tab.0.left/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693920" />
     <state width="1750" height="252" key="GridCell.Tab.0.left/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273549" />
     <state width="918" height="252" key="GridCell.Tab.0.left/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501260" />
     <state width="854" height="232" key="GridCell.Tab.0.left/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701237" />
-    <state width="1878" height="187" key="GridCell.Tab.0.left/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609171490394" />
-    <state width="1878" height="187" key="GridCell.Tab.0.right" timestamp="1609171490395">
+    <state width="1878" height="187" key="GridCell.Tab.0.left/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609173512644" />
+    <state width="1878" height="187" key="GridCell.Tab.0.right" timestamp="1609173512645">
       <screen x="1792" y="-186" width="1920" height="986" />
     </state>
     <state width="854" height="232" key="GridCell.Tab.0.right/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693921" />
     <state width="1750" height="252" key="GridCell.Tab.0.right/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273550" />
     <state width="918" height="252" key="GridCell.Tab.0.right/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501261" />
     <state width="854" height="232" key="GridCell.Tab.0.right/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701275" />
-    <state width="1878" height="187" key="GridCell.Tab.0.right/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609171490395" />
+    <state width="1878" height="187" key="GridCell.Tab.0.right/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609173512645" />
     <state x="2417" y="31" width="670" height="676" key="search.everywhere.popup" timestamp="1608482949889">
       <screen x="1792" y="-186" width="1920" height="986" />
     </state>
@@ -339,6 +338,7 @@
     <SUITE FILE_PATH="coverage/PythonAlgorithm$02_InsertionSort.coverage" NAME="02.InsertionSort Coverage Results" MODIFIED="1609167909478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05.Sort" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$03_GreedyPractice2.coverage" NAME="03.GreedyPractice2 Coverage Results" MODIFIED="1608472447376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.그리디 &amp; 구현" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$02_ImplementPractice1.coverage" NAME="02.ImplementPractice1 Coverage Results" MODIFIED="1608568979051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03.Implementation" />
+    <SUITE FILE_PATH="coverage/PythonAlgorithm$2750.coverage" NAME="2750 Coverage Results" MODIFIED="1609173512640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/2000-3000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$05_SortPractice1.coverage" NAME="05.SortPractice1 Coverage Results" MODIFIED="1609171490387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05.Sort" />
   </component>
 </project>
