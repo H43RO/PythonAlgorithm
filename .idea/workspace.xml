@@ -23,8 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/10000-11000/10814.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/8000-9000/8958.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06.BinarySearch/01.BinarySearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06.BinarySearch/02.BisectLibrary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,29 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="Python.10814">
+  <component name="RunManager" selected="Python.02.BisectLibrary">
+    <configuration name="02.BisectLibrary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonAlgorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06.BinarySearch" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06.BinarySearch/02.BisectLibrary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="05.Dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,28 +122,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/10000-11000/10814.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="10944" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonAlgorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00.Solve/BOJ/10000-11000" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/10000-11000/10944.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02.BisectLibrary" />
         <item itemvalue="Python.10814" />
         <item itemvalue="Python.05.Dict" />
         <item itemvalue="Python.8958" />
         <item itemvalue="Python.1181" />
-        <item itemvalue="Python.10944" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +220,7 @@
       <workItem from="1608566621995" duration="13562000" />
       <workItem from="1608730853314" duration="26066000" />
       <workItem from="1609143703569" duration="20663000" />
-      <workItem from="1609257512442" duration="9612000" />
+      <workItem from="1609257512442" duration="11786000" />
     </task>
     <servers />
   </component>
@@ -248,42 +248,42 @@
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="720" y="281" key="Github.UntrackedFilesDialog/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608399246148" />
-    <state width="1038" height="287" key="GridCell.Tab.0.bottom" timestamp="1609337152195">
-      <screen x="3712" y="-452" width="1080" height="1895" />
+    <state width="918" height="287" key="GridCell.Tab.0.bottom" timestamp="1609345494944">
+      <screen x="1792" y="-186" width="1920" height="986" />
     </state>
     <state width="854" height="232" key="GridCell.Tab.0.bottom/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693921" />
     <state width="1750" height="252" key="GridCell.Tab.0.bottom/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273550" />
-    <state width="918" height="252" key="GridCell.Tab.0.bottom/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501261" />
+    <state width="918" height="287" key="GridCell.Tab.0.bottom/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1609345494944" />
     <state width="1038" height="287" key="GridCell.Tab.0.bottom/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@3712.-452.1080.1895" timestamp="1609337152195" />
     <state width="854" height="232" key="GridCell.Tab.0.bottom/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701275" />
     <state width="1878" height="287" key="GridCell.Tab.0.bottom/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609265194574" />
     <state width="1038" height="287" key="GridCell.Tab.0.bottom/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@3712.-452.1080.1895" timestamp="1609335601952" />
-    <state width="1038" height="287" key="GridCell.Tab.0.center" timestamp="1609337152193">
-      <screen x="3712" y="-452" width="1080" height="1895" />
+    <state width="918" height="287" key="GridCell.Tab.0.center" timestamp="1609345494943">
+      <screen x="1792" y="-186" width="1920" height="986" />
     </state>
     <state width="854" height="232" key="GridCell.Tab.0.center/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693921" />
     <state width="1750" height="252" key="GridCell.Tab.0.center/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273549" />
-    <state width="918" height="252" key="GridCell.Tab.0.center/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501260" />
+    <state width="918" height="287" key="GridCell.Tab.0.center/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1609345494943" />
     <state width="1038" height="287" key="GridCell.Tab.0.center/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@3712.-452.1080.1895" timestamp="1609337152193" />
     <state width="854" height="232" key="GridCell.Tab.0.center/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701275" />
     <state width="1878" height="287" key="GridCell.Tab.0.center/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609265194573" />
     <state width="1038" height="287" key="GridCell.Tab.0.center/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@3712.-452.1080.1895" timestamp="1609335601952" />
-    <state width="1038" height="287" key="GridCell.Tab.0.left" timestamp="1609337152193">
-      <screen x="3712" y="-452" width="1080" height="1895" />
+    <state width="918" height="287" key="GridCell.Tab.0.left" timestamp="1609345494943">
+      <screen x="1792" y="-186" width="1920" height="986" />
     </state>
     <state width="854" height="232" key="GridCell.Tab.0.left/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693920" />
     <state width="1750" height="252" key="GridCell.Tab.0.left/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273549" />
-    <state width="918" height="252" key="GridCell.Tab.0.left/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501260" />
+    <state width="918" height="287" key="GridCell.Tab.0.left/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1609345494943" />
     <state width="1038" height="287" key="GridCell.Tab.0.left/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@3712.-452.1080.1895" timestamp="1609337152193" />
     <state width="854" height="232" key="GridCell.Tab.0.left/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701237" />
     <state width="1878" height="287" key="GridCell.Tab.0.left/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609265194573" />
     <state width="1038" height="287" key="GridCell.Tab.0.left/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@3712.-452.1080.1895" timestamp="1609335601952" />
-    <state width="1038" height="287" key="GridCell.Tab.0.right" timestamp="1609337152194">
-      <screen x="3712" y="-452" width="1080" height="1895" />
+    <state width="918" height="287" key="GridCell.Tab.0.right" timestamp="1609345494944">
+      <screen x="1792" y="-186" width="1920" height="986" />
     </state>
     <state width="854" height="232" key="GridCell.Tab.0.right/0.25.1792.1026@0.25.1792.1026" timestamp="1608636693921" />
     <state width="1750" height="252" key="GridCell.Tab.0.right/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@0.25.1792.1095" timestamp="1608489273550" />
-    <state width="918" height="252" key="GridCell.Tab.0.right/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1608495501261" />
+    <state width="918" height="287" key="GridCell.Tab.0.right/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@1792.-186.1920.986" timestamp="1609345494944" />
     <state width="1038" height="287" key="GridCell.Tab.0.right/1792.-186.1920.986/3712.-452.1080.1895/0.25.1792.1095@3712.-452.1080.1895" timestamp="1609337152194" />
     <state width="854" height="232" key="GridCell.Tab.0.right/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@0.25.1792.1095" timestamp="1608730701275" />
     <state width="1878" height="287" key="GridCell.Tab.0.right/3712.-452.1080.1895/1792.-186.1920.986/0.25.1792.1095@1792.-186.1920.986" timestamp="1609265194574" />
@@ -353,6 +353,7 @@
     <SUITE FILE_PATH="coverage/PythonAlgorithm$5622.coverage" NAME="5622 Coverage Results" MODIFIED="1609079484026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/5000-6000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$8958.coverage" NAME="8958 Coverage Results" MODIFIED="1609335601946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/8000-9000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$06_DFS_BFS_Practice1.coverage" NAME="06.DFS&amp;BFS_Practice1 Coverage Results" MODIFIED="1608973198040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04.DFS&amp;BFS" />
+    <SUITE FILE_PATH="coverage/PythonAlgorithm$02_BisectLibrary.coverage" NAME="02.BisectLibrary Coverage Results" MODIFIED="1609345494937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06.BinarySearch" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$2.coverage" NAME="2 Coverage Results" MODIFIED="1608399064844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$04_Tuple.coverage" NAME="04.Tuple Coverage Results" MODIFIED="1608459670425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.Grammer" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$1157.coverage" NAME="1157 Coverage Results" MODIFIED="1609077281147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/1000-2000" />
