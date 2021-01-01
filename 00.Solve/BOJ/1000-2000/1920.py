@@ -1,23 +1,28 @@
+import sys
+
+n = sys.stdin.readline()
+N = sorted(list(map(int, sys.stdin.readline().split())))
+
+m = sys.stdin.readline()
+M = list(map(int, sys.stdin.readline().split()))
+
+
 def binary_search(array, target, start, end):
     if start > end:
-        return None
+        return 0
 
     mid = (start + end) // 2
 
     if array[mid] == target:
-        return mid
+        return 1
     elif array[mid] > target:
         return binary_search(array, target, start, mid - 1)  # 왼쪽 부분을 탐색
     else:
         return binary_search(array, target, mid + 1, end)  # 오른쪽 부분을 탐색
 
 
-n, target = list(map(int, input().split()))
-array = list(map(int, input().split()))
+for x in M:
+    start = 0
+    end = len(N) - 1
+    print(binary_search(array=N, target=x, start=start, end=end))
 
-result = binary_search(array, target, 0, n - 1)
-
-if result == None:
-    print("원소가 존재하지 않습니다")
-else:
-    print(result + 1)
