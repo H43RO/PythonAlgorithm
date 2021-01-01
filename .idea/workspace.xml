@@ -23,10 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/1000-2000/1920.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06.BinarySearch/03.BinarySearchPractice1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06.BinarySearch/01.BinarySearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/06.BinarySearch/01.BinarySearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.BinarySearch/03.BinarySearchPractice1.py" beforeDir="false" afterPath="$PROJECT_DIR$/06.BinarySearch/03.BinarySearchPractice1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +219,7 @@
       <workItem from="1608566621995" duration="13562000" />
       <workItem from="1608730853314" duration="26066000" />
       <workItem from="1609143703569" duration="20663000" />
-      <workItem from="1609257512442" duration="16190000" />
+      <workItem from="1609257512442" duration="18029000" />
     </task>
     <servers />
   </component>
