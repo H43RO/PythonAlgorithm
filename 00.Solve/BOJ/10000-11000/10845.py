@@ -8,7 +8,7 @@ n = int(sys.stdin.readline())
 
 for i in range(n):
     command = list(sys.stdin.readline().split())
-
+    
     if command[0] == "push":
         queue.append(int(command[1]))
     if command[0] == "pop":
