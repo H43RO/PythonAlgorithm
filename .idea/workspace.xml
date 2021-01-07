@@ -23,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/07.DynamicProgramming/01.DP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/10000-11000/10845.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00.Solve/BOJ/10000-11000/10809.py" beforeDir="false" afterPath="$PROJECT_DIR$/00.Solve/BOJ/10000-11000/10809.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2941.py" beforeDir="false" afterPath="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2941.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00.Solve/BOJ/8000-9000/8958.py" beforeDir="false" afterPath="$PROJECT_DIR$/00.Solve/BOJ/8000-9000/8958.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.8958">
+  <component name="RunManager" selected="Python.10845">
     <configuration name="10809" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10953" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="10845" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,7 +143,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/10000-11000/10953.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/10000-11000/10845.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10845" />
         <item itemvalue="Python.8958" />
         <item itemvalue="Python.10809" />
         <item itemvalue="Python.10828" />
         <item itemvalue="Python.10815" />
-        <item itemvalue="Python.10953" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +226,7 @@
       <workItem from="1609674611096" duration="314000" />
       <workItem from="1609674962414" duration="28000" />
       <workItem from="1609675050199" duration="833000" />
-      <workItem from="1609999108163" duration="3340000" />
+      <workItem from="1609999108163" duration="3941000" />
     </task>
     <servers />
   </component>
