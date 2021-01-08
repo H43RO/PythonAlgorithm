@@ -35,7 +35,7 @@ while i < len(input):
             i += 2
             continue
 
-        if i + 2 < len(input) and input[i] == 'd' and input[i + 1] == 'z' and input[i + 2] == '=':
+        elif i + 2 < len(input) and input[i] == 'd' and input[i + 1] == 'z' and input[i + 2] == '=':
             result += 1
             i += 3
             continue
