@@ -26,15 +26,13 @@ while True:
     if len(stack) != 0 and stack[len(stack) - 1] == data[index]:
         stack.pop()
         index += 1
-        operation = "-"
-        result.append(operation)
+        result.append("-")
         continue
 
     # n 범위 내에서는 매 루프마다 오름차순으로 차례대로 push 하게됨
     if i in range(1, n + 1):
         stack.append(i)
-        operation = "+"
-        result.append(operation)
+        result.append("+")
 
     i += 1
 

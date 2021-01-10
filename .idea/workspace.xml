@@ -22,12 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/1000-2000/1874.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/10000-11000/10816.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/9000-10000/9012.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +227,7 @@
       <workItem from="1609999108163" duration="10282000" />
       <workItem from="1610015189619" duration="4259000" />
       <workItem from="1610106373113" duration="114000" />
-      <workItem from="1610113169399" duration="6404000" />
+      <workItem from="1610113169399" duration="6722000" />
     </task>
     <servers />
   </component>
