@@ -9,6 +9,7 @@ result = 0
 
 for x in input:
     for i in dial:
+        # 만약 해당 알파벳이 포함되어 있는 다이얼이면
         if i[1].count(x):
             result += (i[0] + 1)
             break
