@@ -3,6 +3,7 @@ num = int(input())
 result = 0
 
 i = 0
+
 while True:
     sum = i
 
