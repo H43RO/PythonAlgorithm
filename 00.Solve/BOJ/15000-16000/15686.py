@@ -23,7 +23,6 @@ chicken_choice = list(combinations(chicken_list, m))
 
 for x in chicken_choice:
     final_distance = []
-    # 도시 전체 탐색
     for house in house_list:
         # 가장 가까운 치킨집과의 거리 저장
         temp_distance = []
