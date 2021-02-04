@@ -30,15 +30,16 @@ for i in range(case):
 
     # Error Flag 가 발동하지 않았다면 결과 저장
     if error is False:
-        # reverse = True 면 역순으로 저장
+        # reverse = False 면 정순으로 저장
         if not reverse:
             result.append(data)
-        # reverse = False 면 정순으로 저장
+        # reverse = True 면 역순으로 저장
         if reverse:
             result.append(reversed(data))
     else:
         result.append("error")
 
+# 출력
 for x in result:
     if x == "error":
         print(x)

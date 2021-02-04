@@ -1,18 +1,42 @@
-n, m = map(int, input().split())
-board = [[0] * m for _ in range(n)]
+from sys import stdin, stdout
 
-result = 0
+white_board = [['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+               ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+               ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+               ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+               ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+               ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+               ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+               ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W']]
 
-# B 와 W 의 개수에 차이가 가장 적은 부분으로 잘라내야 다시 칠할 보드의 개수가 적음
+black_board = [['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+               ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+               ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+               ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+               ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+               ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B'],
+               ['B', 'W', 'B', 'W', 'B', 'W', 'B', 'W'],
+               ['W', 'B', 'W', 'B', 'W', 'B', 'W', 'B']]
 
-for i in range(n):
-    board[i] = list(input())
-    if board[i].count('W') != board[i].count('B'):
-        result += abs(board[i].count('W') - board[i].count('B')) - 1
+n, m = map(int, stdin.readline().split())
+board = []
+min_result = 64  # 최댓값
 
+for _ in range(n):
+    board.append(list(stdin.readline().strip()))
 
+for _i in range((n - 8) + 1):
+    for _j in range((m - 8) + 1):
+        white_count = 0
+        black_count = 0
+        for i in range(_i, _i + 8):
+            for j in range(_j, _j + 8):
+                if board[i][j] != white_board[i - _i][j - _j]:
+                    white_count += 1
+                if board[i][j] != black_board[i - _i][j - _j]:
+                    black_count += 1
 
-print(result)
+        count = min(white_count, black_count)
+        min_result = min(min_result, count)
 
-
-
+print(min_result)
