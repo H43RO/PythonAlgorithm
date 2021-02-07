@@ -24,7 +24,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00.Solve/BOJ/7000-8000/7576.py" beforeDir="false" afterPath="$PROJECT_DIR$/00.Solve/BOJ/7000-8000/7576.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2606.py" beforeDir="false" afterPath="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2606.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2667.py" beforeDir="false" afterPath="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2667.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +260,7 @@
       <workItem from="1613053323789" duration="4721000" />
       <workItem from="1613122474309" duration="3428000" />
       <workItem from="1613373033893" duration="312000" />
-      <workItem from="1613373403014" duration="406000" />
+      <workItem from="1613373403014" duration="1938000" />
     </task>
     <servers />
   </component>
