@@ -1,20 +1,26 @@
 from sys import stdin, stdout
-from collections import deque
 
 case = int(stdin.readline().strip())
 results = []
+
 for _ in range(case):
     n = int(stdin.readline().strip())
 
-    people = deque()
+    people = []
     for i in range(n):
         people.append(tuple(map(int, stdin.readline().split())))
-    people = deque(sorted(people))
+
+    # 서류 점수로 정렬
+    people.sort()
+
+    # 가장 우수한 면접 점수 저장하는 변수
     interview_min = people[0][1]
-    people.popleft()
+    del people[0]
+
+    # 서류 점수가 가장 우수한 첫 번째 사람은 무조건 뽑힘
     count = 1
-    # 순위는 낮을 수록 좋은 것
-    # 매번 가장 우수한 사람과 교차 비교하여 둘 중 하나라도 우수하면 (값이 더 작으면) 합격
+
+    # 매번 가장 우수한 면접 점수와 비교하여 면접 점수가 더 우수하면 합격 (어차피 서류는 밀림)
     for x in people:
         if interview_min > x[1]:
             count += 1
