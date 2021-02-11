@@ -26,5 +26,4 @@ def dfs(graph, v, visited):
             dfs(graph, i, visited)
 
 
-
 dfs(graph, 1, visited)
