@@ -34,6 +34,7 @@ def dfs_function(x, y):
         return True
     return False
 
+
 # 모든 좌표에 대하여 DFS 탐색 시도
 for i in range(n):
     for j in range(n):
