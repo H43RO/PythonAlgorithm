@@ -1,3 +1,5 @@
+# PyPy3 로 제출
+
 n, m = map(int, input().split())
 # 나무 길이 정보 입력
 data = list(map(int, input().split()))
@@ -10,13 +12,10 @@ result = 0
 
 # 모든 구간에 대하여 탐색
 while start <= end:
-    total = 0
     mid = (start + end) // 2
 
     # 현재 절단기 높이 (mid) 에 의해 잘려진 나무 길이 총합 계산
-    for x in data:
-        if x >= mid:
-            total += x - mid
+    total = sum([x - mid if x >= mid else 0 for x in data])
 
     # 만약 잘려진 나무 길이 총합이 요구조건보다 부족하다면
     if total < m:
