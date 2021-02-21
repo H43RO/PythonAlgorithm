@@ -16,3 +16,6 @@ for i, v in enumerate(num):
             LIS[bisect_left(LIS, v)] = v
 
 print(len(LIS))
+for x in LIS:
+    print(x, end=' ')
+print()
