@@ -1,5 +1,3 @@
-# PyPy3 로 제출
-
 n, m = map(int, input().split())
 # 나무 길이 정보 입력
 data = list(map(int, input().split()))
