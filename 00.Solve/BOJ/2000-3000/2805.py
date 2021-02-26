@@ -5,7 +5,6 @@ data = list(map(int, input().split()))
 # 이분 탐색 start, end 정의
 start = 0
 end = max(data)
-
 result = 0
 
 # 모든 구간에 대하여 탐색
