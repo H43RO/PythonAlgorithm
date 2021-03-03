@@ -3,7 +3,6 @@ zero = [1, 0, 1]
 one = [0, 1, 1]
 
 # 호출 횟수마저 피보나치 규칙을 띄고 있음을 이용함
-
 for case in range(int(input())):
     num = int(input())
 

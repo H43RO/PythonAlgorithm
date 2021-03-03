@@ -17,7 +17,7 @@ data = []
 for i in range(n):
     data.append(list(map(int, input().split())))
 
-# Bottom - Up
+# Bottom - Up 으로 풀기 위해 역순 정렬해줌
 data.reverse()
 
 print(solve(n, data))
