@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00.Solve/Programmers/ㅂㅈㄷㄱ.py" beforeDir="false" afterPath="$PROJECT_DIR$/00.Solve/Programmers/Level_3/광고 삽입.py" afterDir="false" />
-    </list>
+    <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,7 +269,7 @@
       <workItem from="1615182577146" duration="7838000" />
       <workItem from="1615208956816" duration="6559000" />
       <workItem from="1615292122247" duration="675000" />
-      <workItem from="1615466944262" duration="328000" />
+      <workItem from="1615466944262" duration="660000" />
     </task>
     <servers />
   </component>
