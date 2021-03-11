@@ -1,9 +1,7 @@
 import sys
-
-sys.setrecursionlimit(10000)
-
 from collections import deque
 
+sys.setrecursionlimit(10000)
 n, m = map(int, input().split())
 
 graph = []
@@ -29,10 +27,13 @@ def bfs(x, y):
                 continue
             if graph[nx][ny] == 0:
                 continue
+            # 이동할 수 있는 칸을 만났을 때
             if graph[nx][ny] == 1:
+                # 최단 경로를 기록해 줌 (이전 경로의 값에서 1 증가)
                 graph[nx][ny] = graph[x][y] + 1
                 queue.append((nx, ny))
 
+    # 도착 위치에 기록되어있는 값이 결국 최단 경로임
     return graph[n - 1][m - 1]
 
 
