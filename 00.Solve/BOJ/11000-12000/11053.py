@@ -34,4 +34,4 @@ for i in range(n):
         if data[i] > data[j] and dp[i] < dp[j]:
             dp[i] = dp[j]
     dp[i] += 1
-print(dp[n - 1])
+print(max(dp))
