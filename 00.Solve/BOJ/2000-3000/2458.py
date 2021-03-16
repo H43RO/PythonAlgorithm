@@ -19,10 +19,14 @@ for k in range(1, n + 1):
                 graph[a][b] = 1
 
 result = 0
+# 각 노드에 대하여 탐색
 for i in range(1, n + 1):
     known = 0
+    # 나로부터 다른 노드로 가는 경로, 다른 노드로부터 나에게 오는 경로의 합
+    # (나보다 키가 작은 학생들)     (나보다 키가 큰 학생들)
     for j in range(1, n + 1):
         known += graph[i][j] + graph[j][i]
+    # 만약 그 합이 n - 1 과 같다면 모든 노드와 비교가 가능한 것
     if known == n - 1:
         result += 1
 print(result)
