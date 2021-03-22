@@ -2,21 +2,27 @@ from sys import stdin
 
 n = int(stdin.readline())
 m = int(stdin.readline())
-s = list(stdin.readline().strip())
+s = stdin.readline().strip()
 
-pattern = 0
+IOI = 0
 count = 0
 
-i = 1
-while i < m - 1:
-    if s[i - 1] == 'I' and s[i] == 'O' and s[i + 1] == 'I':
-        pattern += 1
-        if pattern == n:
-            pattern -= 1
+'''
+ 처음에 find() 를 응용한 O(n^2) 코드로 풀었다가 시간초과 발생
+ 전체 문자열에 대하여 딱 한 번의 탐색 O(n) 으로 동작이 끝나야 함
+'''
+
+i = 0
+while i < m - 2:
+    if s[i:i + 3] == "IOI":  # 현재 인덱스로부터 IOI 패턴이 발견되면
+        IOI += 1  # 패턴 등장횟수 1 증가
+        if IOI == n:  # 만약 N만큼 등장했다면 (탐색하고자 하는 패턴과 일치)
+            IOI -= 1  # - 등장 횟수 1 줄이고 패턴 발견횟수 1 증가
             count += 1
-        i += 2
-    else:
-        pattern = 0
+        i += 2  # 'IO' 만큼 인덱스 건너뜀
+
+    else:  # 만약 패턴이 발견되지 않으면
+        IOI = 0  # - 패턴 등장횟수 초기화 및 인덱스 1 증가
         i += 1
 
 print(count)
