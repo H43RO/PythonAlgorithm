@@ -1,7 +1,10 @@
 from sys import stdin
 
 n = int(stdin.readline())
-m = 1_000_001
+# 입력이 1,000,000 이기 때문에 좀 더 큰 값까지 찾아봐야 함
+m = 1_100_000
+
+# 특정 숫자(인덱스)가 소수면 True, 아니면 False 로 저장
 prime = [True] * m
 
 # 에라토스테네스의 체를 활용하여 소수 리스트 만듦
@@ -12,7 +15,7 @@ for i in range(2, int(m ** 0.5) + 1):
 
 result = 0
 
-# N 부터 1,000,001 까지 탐색
+# N 부터 끝까지 탐색
 while n < m:
     # 만약 N 이 1 이라면 2가 답임
     if n == 1:
@@ -25,8 +28,4 @@ while n < m:
         break
     n += 1
 
-# 결과가 없다면 1000001 보다 크고 팰린드롬이자 소수인 1003001 이 결과임
-if result == 0:
-    print(1003001)
-else:
-    print(result)
+print(result)
