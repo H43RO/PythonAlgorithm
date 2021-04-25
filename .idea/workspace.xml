@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="[BOJ] 1080">
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/14000-15000/14496.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00.Solve/Programmers/고득점_Kit/DP/N으로_표현.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -295,7 +295,8 @@
       <workItem from="1619508613379" duration="10967000" />
       <workItem from="1619547397965" duration="5476000" />
       <workItem from="1619631222127" duration="4135000" />
-      <workItem from="1619788091718" duration="4741000" />
+      <workItem from="1619788091718" duration="5892000" />
+      <workItem from="1619853390374" duration="3487000" />
     </task>
     <task id="LOCAL-00001" summary="[BOJ] 1747, 6996 해설">
       <created>1617462109814</created>
