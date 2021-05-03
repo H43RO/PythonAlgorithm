@@ -7,7 +7,7 @@ def dfs(graph, v, visited, count, result):
         if not visited[x[0]]:
             dfs(graph, x[0], visited, count + x[1], result)
 
-    result.append(count)
+    result.append((v, count))
 
 
 n = int(stdin.readline())
@@ -21,5 +21,9 @@ for _ in range(n):
 result = []
 count = 0
 visited = [False] * (n + 1)
-dfs(graph, i, visited, count, result)
-print(max(result))
+dfs(graph, 1, visited, count, result)
+farthest = max(result, key=lambda x: x[1])
+
+visited = [False] * (n + 1)
+dfs(graph, farthest[0], visited, count, result)
+print(max(result, key=lambda x: x[1])[1])
