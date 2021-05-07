@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="[Programmers] 수식 최대화">
+      <change afterPath="$PROJECT_DIR$/00.Solve/Programmers/Level_3/보석 쇼핑.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00.Solve/Programmers/Level_2/수식 최대화.py" beforeDir="false" afterPath="$PROJECT_DIR$/00.Solve/Programmers/Level_2/수식 최대화.py" afterDir="false" />
     </list>
@@ -306,7 +307,7 @@
       <workItem from="1620144022200" duration="1000" />
       <workItem from="1620147476057" duration="4000" />
       <workItem from="1620197207817" duration="7870000" />
-      <workItem from="1620389507115" duration="3047000" />
+      <workItem from="1620389507115" duration="4928000" />
     </task>
     <task id="LOCAL-00001" summary="[BOJ] 1747, 6996 해설">
       <created>1617462109814</created>
@@ -413,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620395431314</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[Programmers] 수식 최대화">
+      <created>1620396232584</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620396232584</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +504,7 @@
     <SUITE FILE_PATH="coverage/PythonAlgorithm$9184.coverage" NAME="9184 Coverage Results" MODIFIED="1610436946335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/9000-10000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$9465.coverage" NAME="9465 Coverage Results" MODIFIED="1613980704700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/9000-10000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$03_DP_Practice2.coverage" NAME="03.DP_Practice2 Coverage Results" MODIFIED="1611476569443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07.DynamicProgramming" />
-    <SUITE FILE_PATH="coverage/PythonAlgorithm$_.coverage" NAME="수식 최대화 Coverage Results" MODIFIED="1620396132166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/Programmers/Level_2" />
+    <SUITE FILE_PATH="coverage/PythonAlgorithm$_.coverage" NAME="수식 최대화 Coverage Results" MODIFIED="1620398123722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/Programmers/Level_2" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$1316.coverage" NAME="1316 Coverage Results" MODIFIED="1609084895338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/1000-2000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$01_Stack.coverage" NAME="01.Stack Coverage Results" MODIFIED="1608968767463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04.DFS&amp;BFS" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$14496.coverage" NAME="14496 Coverage Results" MODIFIED="1619793251847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/14000-15000" />
