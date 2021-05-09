@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/16000-17000/16953.py" afterDir="false" />
+    <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="[BOJ] 16953">
+      <change afterPath="$PROJECT_DIR$/00.Solve/Programmers/고득점_Kit/Greedy/구명보트.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00.Solve/BOJ/16000-17000/16953.py" beforeDir="false" afterPath="$PROJECT_DIR$/00.Solve/BOJ/16000-17000/16953.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +332,7 @@
       <workItem from="1620197207817" duration="7870000" />
       <workItem from="1620389507115" duration="5211000" />
       <workItem from="1620398419105" duration="24880000" />
-      <workItem from="1620568122373" duration="1248000" />
+      <workItem from="1620568122373" duration="2681000" />
     </task>
     <task id="LOCAL-00001" summary="[BOJ] 1747, 6996 해설">
       <created>1617462109814</created>
@@ -466,7 +467,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620465847635</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="카카오 인턴쉽 2021 코딩 테스트">
+      <created>1620569379355</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1620569379355</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[BOJ] 16953">
+      <created>1620569423081</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1620569423081</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +516,8 @@
     <MESSAGE value="[Programmers] 수식 최대화" />
     <MESSAGE value="[Programmers] 보석 쇼핑" />
     <MESSAGE value="카카오 인턴쉽 2021 코딩 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="카카오 인턴쉽 2021 코딩 테스트" />
+    <MESSAGE value="[BOJ] 16953" />
+    <option name="LAST_COMMIT_MESSAGE" value="[BOJ] 16953" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonAlgorithm$N_.coverage" NAME="N으로_표현 Coverage Results" MODIFIED="1615548646697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/Programmers/고득점_Kit/DP" />
