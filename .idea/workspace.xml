@@ -22,7 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="[BOJ] 16953">
+    <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="[Programmers] 구명보트">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00.Solve/Programmers/고득점_Kit/Greedy/구명보트.py" beforeDir="false" afterPath="$PROJECT_DIR$/00.Solve/Programmers/고득점_Kit/Greedy/구명보트.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -330,7 +331,7 @@
       <workItem from="1620197207817" duration="7870000" />
       <workItem from="1620389507115" duration="5211000" />
       <workItem from="1620398419105" duration="24880000" />
-      <workItem from="1620568122373" duration="3173000" />
+      <workItem from="1620568122373" duration="3477000" />
     </task>
     <task id="LOCAL-00001" summary="[BOJ] 1747, 6996 해설">
       <created>1617462109814</created>
@@ -486,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620571095280</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="[Programmers] 구명보트">
+      <created>1620571879676</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1620571879676</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +530,8 @@
     <MESSAGE value="[Programmers] 보석 쇼핑" />
     <MESSAGE value="카카오 인턴쉽 2021 코딩 테스트" />
     <MESSAGE value="[BOJ] 16953" />
-    <option name="LAST_COMMIT_MESSAGE" value="[BOJ] 16953" />
+    <MESSAGE value="[Programmers] 구명보트" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Programmers] 구명보트" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonAlgorithm$N_.coverage" NAME="N으로_표현 Coverage Results" MODIFIED="1615548646697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/Programmers/고득점_Kit/DP" />
@@ -576,7 +585,7 @@
     <SUITE FILE_PATH="coverage/PythonAlgorithm$1316.coverage" NAME="1316 Coverage Results" MODIFIED="1609084895338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/1000-2000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$01_Stack.coverage" NAME="01.Stack Coverage Results" MODIFIED="1608968767463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04.DFS&amp;BFS" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$14496.coverage" NAME="14496 Coverage Results" MODIFIED="1619793251847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/14000-15000" />
-    <SUITE FILE_PATH="coverage/PythonAlgorithm$.coverage" NAME="구명보트 Coverage Results" MODIFIED="1620571572830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/Programmers/고득점_Kit/Greedy" />
+    <SUITE FILE_PATH="coverage/PythonAlgorithm$.coverage" NAME="구명보트 Coverage Results" MODIFIED="1620571860070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/Programmers/고득점_Kit/Greedy" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$02_DP_Practice1.coverage" NAME="02.DP_Practice1 Coverage Results" MODIFIED="1610363507284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07.DynamicProgramming" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$10814.coverage" NAME="10814 Coverage Results" MODIFIED="1609337152184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/10000-11000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$10944.coverage" NAME="10944 Coverage Results" MODIFIED="1609263659524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/10000-11000" />
