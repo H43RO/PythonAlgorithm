@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="[BOJ] 2075">
-      <change afterPath="$PROJECT_DIR$/10.DisjointSets/01.DisjointSets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.DisjointSets/02.DisjointSetsPathCompression.py" afterDir="false" />
+    <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="서로소 집합 자료구조 개념">
+      <change afterPath="$PROJECT_DIR$/10.DisjointSets/03.CycleCheck.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -319,7 +318,7 @@
       <workItem from="1620830250896" duration="66000" />
       <workItem from="1621002717834" duration="5704000" />
       <workItem from="1621063131461" duration="350000" />
-      <workItem from="1621063489672" duration="2435000" />
+      <workItem from="1621063489672" duration="5206000" />
     </task>
     <task id="LOCAL-00001" summary="[BOJ] 1747, 6996 해설">
       <created>1617462109814</created>
@@ -517,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621008659964</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="서로소 집합 자료구조 개념">
+      <created>1621066556093</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1621066556094</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +563,8 @@
     <MESSAGE value="[BOJ] 1912" />
     <MESSAGE value="[BOJ] 18111" />
     <MESSAGE value="[BOJ] 2075" />
-    <option name="LAST_COMMIT_MESSAGE" value="[BOJ] 2075" />
+    <MESSAGE value="서로소 집합 자료구조 개념" />
+    <option name="LAST_COMMIT_MESSAGE" value="서로소 집합 자료구조 개념" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonAlgorithm$N_.coverage" NAME="N으로_표현 Coverage Results" MODIFIED="1615548646697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/Programmers/고득점_Kit/DP" />
