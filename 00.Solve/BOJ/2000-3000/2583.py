@@ -22,13 +22,12 @@ def bfs(x, y):
             # 그래프 공간을 벗어난 경우 무시
             if nx < 0 or nx >= N or ny < 0 or ny >= M:
                 continue
-            # 그렸던 직사각형 영역이면 무시
+            # 이전에 그렸던 직사각형 영역이거나, 방문했던 곳이면 무시
             if graph[nx][ny] == 1:
                 continue
-            if graph[nx][ny] == 0:
-                count += 1
-                graph[nx][ny] = 1
-                queue.append((nx, ny))
+            count += 1
+            graph[nx][ny] = 1
+            queue.append((nx, ny))
 
     # 만약 시작 좌표만 유효 영역이라면 1 리턴
     if count == 0:
@@ -36,9 +35,10 @@ def bfs(x, y):
     return count
 
 
-# 직사각형 그리기 (BFS 탐색 시 구분을 위해 1로 표시)
 for _ in range(K):
+    # 편의 상 입력을 거꾸로 받기
     y1, x1, y2, x2 = map(int, stdin.readline().split())
+    # 직사각형 그리기 (BFS 탐색 시 구분을 위해 1로 표시)
     for i in range(x1, x2):
         for j in range(y1, y2):
             graph[i][j] = 1
