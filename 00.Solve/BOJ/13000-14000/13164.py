@@ -11,6 +11,5 @@ for i in range(1, n):
 # 이 키 차이 값들을 정렬했을 때, N-K 까지의 총합 출력
 # N 명의 유치원 생을 K 조로 나눴기 때문
 result.sort()
-
 print(result)
 print(sum(result[:n - k]))

@@ -16,9 +16,9 @@ for _ in range(T):
     # 격차 최소화를 위해 지그재그로 삽입하는 것이 핵심 로직
     # 예를들어 2 4 5 7 9 입력이 들어오면
     # 9 7 5 4 2 로 역순 정렬을 한 뒤
-    # left = [9], right = [7]
-    # left = [9, 5], right = [7, 4]
-    # left = [9, 5, 2], right = [7, 4]
+    # left = [9], right = [4, 7]
+    # left = [9, 5], right = [4, 7]
+    # left = [9, 5, 2], right = [4, 7]
     # 이렇게 동작하여, 각 통나무 간의 격차 최소화
     while len(wood) > 1:
         left.append(wood.pop())
