@@ -7,7 +7,7 @@ total = int(stdin.readline())
 start = 0
 end = max(money)
 
-max_money = 0
+maximum = 0
 
 # 상한가 탐색을 위한 이분탐색
 while start <= end:
@@ -28,7 +28,7 @@ while start <= end:
     # 상한가를 높여서 탐색
     # -> 탐색 마지막 순간에 가장 최적의 상한가를 저장하게 됨
     else:
-        max_money = mid
+        maximum = mid
         start = mid + 1
 
-print(max_money)
+print(maximum)
