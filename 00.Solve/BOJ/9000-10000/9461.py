@@ -1,18 +1,14 @@
-d = [0] * 101
+from sys import stdin
 
-d[1] = 1
-d[2] = 1
-d[3] = 1
+dp = [0] * 101
+dp[1] = 1
+dp[2] = 1
+dp[3] = 1
 
-
-def wave(n):
+for _ in range(int(stdin.readline())):
+    n = int(stdin.readline())
+    # 점화식 : dp[i] = dp[i - 3] + dp[i - 2]
     for i in range(4, n + 1):
-        d[i] = d[i - 3] + d[i - 2]
+        dp[i] = dp[i - 3] + dp[i - 2]
 
-    return d[n]
-
-
-for case in range(int(input())):
-    n = int(input())
-
-    print(wave(n))
+    print(dp[n])
