@@ -23,8 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="[BOJ] 2583">
+      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/13000-14000/13549.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.GreedyAlgorithm/큰_수의_법칙.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.GreedyAlgorithm/큰_수의_법칙_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00.Solve/BOJ/11000-12000/11444.py" beforeDir="false" afterPath="$PROJECT_DIR$/00.Solve/BOJ/11000-12000/11444.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <recent name="$PROJECT_DIR$/00.Solve/BOJ/11000-12000" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.11444">
+  <component name="RunManager" selected="Python.큰_수의_법칙">
     <configuration name="10830" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2891" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="큰_수의_법칙" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,12 +180,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00.Solve/BOJ/2000-3000" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02.GreedyAlgorithm" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/2000-3000/2891.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02.GreedyAlgorithm/큰_수의_법칙.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.큰_수의_법칙" />
         <item itemvalue="Python.11444" />
         <item itemvalue="Python.10830" />
         <item itemvalue="Python.1629" />
         <item itemvalue="Python.11286" />
-        <item itemvalue="Python.2891" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +336,7 @@
       <workItem from="1624198794584" duration="1123000" />
       <workItem from="1624363573091" duration="14849000" />
       <workItem from="1624436949453" duration="2586000" />
-      <workItem from="1624452063376" duration="10152000" />
+      <workItem from="1624452063376" duration="14781000" />
     </task>
     <task id="LOCAL-00001" summary="[BOJ] 1747, 6996 해설">
       <created>1617462109814</created>
@@ -688,7 +690,7 @@
     <SUITE FILE_PATH="coverage/PythonAlgorithm$01_Implementation.coverage" NAME="01.Implementation Coverage Results" MODIFIED="1608567720633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03.Implementation" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$11653.coverage" NAME="11653 Coverage Results" MODIFIED="1611473408254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/11000-12000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$2914.coverage" NAME="2914 Coverage Results" MODIFIED="1611328966505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/2000-3000" />
-    <SUITE FILE_PATH="coverage/PythonAlgorithm$__.coverage" NAME="다리를_지나는_트럭 Coverage Results" MODIFIED="1615801355707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/Programmers/고득점_Kit/Stack,Queue" />
+    <SUITE FILE_PATH="coverage/PythonAlgorithm$__.coverage" NAME="큰_수의_법칙 Coverage Results" MODIFIED="1624523305492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.GreedyAlgorithm" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$03_GreedyPractice2.coverage" NAME="03.GreedyPractice2 Coverage Results" MODIFIED="1608472447376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02.그리디 &amp; 구현" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$5338.coverage" NAME="5338 Coverage Results" MODIFIED="1613821771438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/5000-6000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$2675.coverage" NAME="2675 Coverage Results" MODIFIED="1609073282439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/2000-3000" />
