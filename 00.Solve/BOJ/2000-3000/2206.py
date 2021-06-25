@@ -1,58 +1,44 @@
 from sys import stdin
 from collections import deque
-import copy
 
-dx = [-1, 0, 0, 1]
-dy = [0, 1, -1, 0]
+dx = [1, -1, 0, 0]
+dy = [0, 0, -1, 1]
 
 
-def bfs(graph):
+def bfs():
     queue = deque()
-    graph[0][0] = 1
-    queue.append((0, 0))
+    queue.append([0, 0, 1])
+
+    visited = [[[0] * 2 for _ in range(m)] for _ in range(n)]
+    visited[0][0][1] = 1
 
     while queue:
-        x, y = queue.popleft()
+        x, y, w = queue.popleft()
+
+        if x == n - 1 and y == m - 1:
+            return visited[x][y][w]
+
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
 
-            if nx < 0 or nx >= n or ny < 0 or ny >= m:
-                continue
-            if graph[nx][ny] == -1:
-                continue
-            if graph[nx][ny] == 0:
-                graph[nx][ny] = graph[x][y] + 1
-                queue.append((nx, ny))
-
-    if graph[n - 1][m - 1] == 0:
-        return -1
-    return graph[n - 1][m - 1]
+            if 0 <= nx < n and 0 <= ny < m:
+                # 벽으로 가로 막혀있고, 벽을 뚫을 수 있는 경우
+                if graph[nx][ny] == 1 and w == 1:
+                    # 벽을 뚫고 최단 거리 + 1 저장
+                    visited[nx][ny][0] = visited[x][y][1] + 1
+                    # 벽을 뚫고 왔으므로 w 에 0 넣어서 경로 큐잉
+                    queue.append([nx, ny, 0])
+                # 이동할 수 있는 곳이고, 아직 방문하지 않은 곳이라면
+                elif graph[nx][ny] == 0 and visited[nx][ny][w] == 0:
+                    # 최단 거리 저장 후 경로 큐잉
+                    visited[nx][ny][w] = visited[x][y][w] + 1
+                    queue.append([nx, ny, w])
+    return -1
 
 
 n, m = map(int, stdin.readline().split())
-
 graph = []
-wall = []
-result = []
-
-# 벽의 좌표를 모두 저장하여, 벽을 차례대로 하나씩 허물어보면서 BFS 탐색 시도
-for i in range(n):
-    temp = list(map(int, stdin.readline().strip()))
-    for j in range(m):
-        # 벽 좌표 (i, j) 를 튜플 형태로 저장
-        # - 편의를 위해 벽 좌표를 -1 로 변경
-        if temp[j] == 1:
-            wall.append((i, j))
-            temp[j] = -1
-    graph.append(temp)
-
-for x in wall:
-    # 원본 변형 X
-    graph_copy = copy.deepcopy(graph)
-
-    # 현재 무너뜨려볼 차례의 벽을 무너뜨림
-    graph_copy[x[0]][x[1]] = 0
-    result.append(bfs(graph_copy))
-
-print(max(result))
+for _ in range(n):
+    graph.append(list(map(int, list(stdin.readline().strip()))))
+print(bfs())
