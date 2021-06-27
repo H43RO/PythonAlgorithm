@@ -1,21 +1,8 @@
-from sys import stdin, stdout
+from itertools import combinations_with_replacement
+from sys import stdin
 
 n, m = map(int, stdin.readline().split())
-num = list(map(int, stdin.readline().split()))
-num.sort()
-
-data = [0] * (m + 1)
-
-
-def solve(data, count):
-    if count > m:
-        for i in range(1, m + 1):
-            print(data[i], end=' ')
-        print()
-    else:
-        for x in num:
-            data[count] = x
-            solve(data, count + 1)
-
-
-solve(data, 1)
+data = sorted(list(map(int, stdin.readline().split())))
+result = sorted(list(set(list(combinations_with_replacement(data, m)))))
+for x in result:
+    print(' '.join(str(a) for a in x))
