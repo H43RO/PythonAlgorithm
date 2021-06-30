@@ -2,27 +2,17 @@ from sys import stdin, stdout
 from collections import deque
 
 case = int(stdin.readline())
-result = []
 
 for i in range(case):
     n, m = map(int, stdin.readline().split())
     priority = list(map(int, stdin.readline().split()))
 
-    queue = deque()
-
+    queue = deque()  # 프린터 큐 생성
     for x in range(n):
-        doc = list()
-        doc.append(x)  # doc[0] : 인덱스
-        doc.append(priority[x])  # doc[1] : 우선순위
-        queue.append(doc)
+        doc = [x, priority[x]]  # [0] : 인덱스, [1] : 우선순위
+        queue.append(doc)  # 프린터 큐에 큐잉
 
     count = 0
-
-    if len(queue) == 1:  # 만약 문서가 단 하나라면 프린트 횟수 1회로 프로그램 종료
-        count += 1
-        result.append(count)
-        continue
-
     while queue:
         doc = queue[0]  # 현재 큐의 맨 앞 문서
         max_doc = max(queue, key=lambda item: item[1])  # 우선순위가 가장 높은 문서
@@ -36,7 +26,4 @@ for i in range(case):
             if doc[0] == m:  # 만약 타겟 문서라면 종료
                 break
 
-    result.append(count)
-
-for x in result:
-    print(x)
+    print(count)
