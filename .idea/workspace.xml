@@ -23,7 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9125178b-0fc5-416a-b721-6a502775c849" name="Default Changelist" comment="[BOJ] 2583">
-      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/9000-10000/9205.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00.Solve/BOJ/11000-12000/11058.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,8 +81,8 @@
       <recent name="$PROJECT_DIR$/00.Solve/BOJ/11000-12000" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.9205">
-    <configuration name="1261" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.11058">
+    <configuration name="11058" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAlgorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,12 +90,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00.Solve/BOJ/1000-2000" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00.Solve/BOJ/11000-12000" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/1000-2000/1261.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00.Solve/BOJ/11000-12000/11058.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.11058" />
         <item itemvalue="Python.9205" />
         <item itemvalue="Python.5014" />
         <item itemvalue="Python.2665" />
         <item itemvalue="Python.14496" />
-        <item itemvalue="Python.1261" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +339,7 @@
       <workItem from="1624885433112" duration="13847000" />
       <workItem from="1624971340975" duration="18377000" />
       <workItem from="1625081893464" duration="266000" />
-      <workItem from="1625415990347" duration="21332000" />
+      <workItem from="1625415990347" duration="25050000" />
     </task>
     <task id="LOCAL-00001" summary="[BOJ] 1747, 6996 해설">
       <created>1617462109814</created>
@@ -656,7 +656,7 @@
     <SUITE FILE_PATH="coverage/PythonAlgorithm$18808.coverage" NAME="18808 Coverage Results" MODIFIED="1620028577314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/18000-19000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$2748.coverage" NAME="2748 Coverage Results" MODIFIED="1612278003840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/2000-3000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$main.coverage" NAME="main Coverage Results" MODIFIED="1608399062003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonAlgorithm$9205.coverage" NAME="9205 Coverage Results" MODIFIED="1625480016273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/9000-10000" />
+    <SUITE FILE_PATH="coverage/PythonAlgorithm$9205.coverage" NAME="9205 Coverage Results" MODIFIED="1625481624514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/9000-10000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$9184.coverage" NAME="9184 Coverage Results" MODIFIED="1610436946335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/9000-10000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$9465.coverage" NAME="9465 Coverage Results" MODIFIED="1613980704700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/9000-10000" />
     <SUITE FILE_PATH="coverage/PythonAlgorithm$16496.coverage" NAME="16496 Coverage Results" MODIFIED="1624885486528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/00.Solve/BOJ/16000-17000" />
