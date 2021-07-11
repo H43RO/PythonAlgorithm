@@ -5,12 +5,10 @@ while True:
     data = stdin.readline().strip()
     if data.startswith('-'):  # 종료 조건
         break
-
     result = 0
     stack = []
     for x in data:
-        # 쌍이 있는 괄호가 발견되면 없애줌
-        if len(stack) > 0 and stack[-1] == '{' and x == '}':
+        if len(stack) > 0 and stack[-1] == '{' and x == '}':  # 쌍이 있는 괄호가 발견되면 없애줌
             stack.pop()
             continue
         stack.append(x)
@@ -22,6 +20,6 @@ while True:
             result += 1
         else:  # '}', '{' 인 경우 2회 교체 필요
             result += 2
-    print(f'{count}. {result}')
 
+    print(f'{count}. {result}')
     count += 1
