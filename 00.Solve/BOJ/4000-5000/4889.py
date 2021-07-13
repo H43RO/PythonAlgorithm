@@ -1,6 +1,6 @@
 from sys import stdin
 
-count = 1  # 1-based 인덱싱
+count = 1  # 케이스 번호 출력을 위한 count
 while True:
     data = stdin.readline().strip()
     if data.startswith('-'):  # 종료 조건
