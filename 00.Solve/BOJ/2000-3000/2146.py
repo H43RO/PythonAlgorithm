@@ -18,11 +18,10 @@ def bfs(start):
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
-            if 0 <= nx < n and 0 <= ny < n:
-                if graph[nx][ny] == 1:
-                    graph[nx][ny] = 0
-                    queue.append((nx, ny))
-                    result.append((nx, ny))
+            if 0 <= nx < n and 0 <= ny < n and graph[nx][ny] == 1:
+                queue.append((nx, ny))
+                result.append((nx, ny))
+                graph[nx][ny] = 0
     return result
 
 
