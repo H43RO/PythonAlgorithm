@@ -1,7 +1,3 @@
-"""
-  순열 사용하려 했으나 메모리 초과 발생해서 재귀탐색 풀이로 전환함
-"""
-
 from sys import stdin, maxsize
 
 
@@ -26,8 +22,9 @@ n = int(stdin.readline())
 num = list(map(int, stdin.readline().split()))
 add, sub, mul, div = map(int, stdin.readline().split())
 
-max_result = -maxsize - 1
-min_result = maxsize
+# 최댓값, 최솟값을 갱신하도록 함
+max_result = -maxsize - 1  # 계산할 수 있는 수 중 가장 작은 값
+min_result = maxsize  # 계산할 수 있는 수 중 가장 큰 값
 
 solve(1, num[0], add, sub, mul, div)
 
