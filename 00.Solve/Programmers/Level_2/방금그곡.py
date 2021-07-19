@@ -1,10 +1,13 @@
+# 샾 음계에 대해서 별개의 음계로 치환
+# 예를들어 C 와 C# 을 구분해주기 위한 목적도 있고,
+# C# 의 문자열 길이가 2인지라 2개 음계로 인식될 수 있기 때문에 한 자리로 치환
 sharp = {'C#': '1', 'D#': '2', 'F#': '3', 'G#': '5', 'A#': '6'}
 
 
 def solution(m, musicinfos):
     answer = ''
 
-    for x in sharp.keys():
+    for x in sharp.keys():  # 기억한 멜로디의 샾 음계 모두 치환
         m = m.replace(x, sharp[x])
 
     music = []
@@ -18,14 +21,11 @@ def solution(m, musicinfos):
 
         # 재생 시간과 실제 재생 멜로디를 계산
         play_time = (end_h * 60 + end_m) - (start_h * 60 + start_m)
-        if play_time >= len(note):
-            play_note = note * (play_time // len(note))
-            play_note += note[:(play_time % len(note))]
-        else:
-            play_note = note[:play_time]
+        play_note = note * (play_time // len(note))
+        play_note += note[:(play_time % len(note))]
 
         index = play_note.find(m)
-        if index == -1:
+        if index == -1:  # 문자열을 찾기 못하면 -1 반환
             continue
         music.append((play_time, i, name))  # 재생시간, 입력순서, 제목 삽입
 
