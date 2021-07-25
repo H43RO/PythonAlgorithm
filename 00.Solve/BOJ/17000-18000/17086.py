@@ -11,8 +11,9 @@ def bfs(start_x, start_y):
     visited[start_x][start_y] = 0
     while queue:
         x, y = queue.popleft()
-        if graph[x][y] == 1:
+        if graph[x][y] == 1:  # 가장 가까운 아기상어를 찾았을 때 그 거리를 반환
             return visited[x][y]
+
         for i in range(8):
             nx = x + dx[i]
             ny = y + dy[i]
@@ -27,6 +28,6 @@ graph = [list(map(int, stdin.readline().split())) for _ in range(n)]
 result = 0
 for i in range(n):
     for j in range(m):
-        if graph[i][j] == 0:
-            result = max(result, bfs(i, j))
+        if graph[i][j] == 0:  # 아기상어가 없는 곳에서 BFS 수행
+            result = max(result, bfs(i, j))  # 최댓값으로 결과값 갱신
 print(result)
