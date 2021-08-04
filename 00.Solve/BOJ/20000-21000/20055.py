@@ -20,10 +20,10 @@ while durability.count(0) < k:  # 내구도가 0인 칸 개수가 K 개 이상�
         if robot[i] and not robot[i + 1] and durability[i + 1]:  # 한 칸 이동할 수 있는 조건이라면
             robot[i] = False                                     # 이동을 해준다
             robot[i + 1] = True
-            durability[i + 1] = max(0, durability[i + 1] - 1)    # 이후 해당 칸의 내구도를 줄임 (음수 방지)
+            durability[i + 1] -= 1  # 이후 해당 칸의 내구도 줄임
 
     if durability[0]:  # 올리는 위치 칸 내구도가 0이 아니라면 새로운 로봇 올림
         robot[0] = True
-        durability[0] = max(0, durability[0] - 1)  # 이후 해당 칸의 내구도를 줄임 (음수 방지)
+        durability[0] -= 1  # 이후 해당 칸의 내구도 줄임
 
 print(count)
