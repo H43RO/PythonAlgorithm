@@ -35,14 +35,9 @@ while True:
     # >>> 방향 변환 시퀀스 <<<
     if rotate and count == int(rotate[0][0]):  # 해당 시간에 방향 변환 정보가 있다면
         _, V = rotate.popleft()  # 해당 정보 pop() 후 방향 변환 처리
-        # 방향 전환
         if V == 'L':  # 좌회전
-            direction -= 1
-            if direction == 0:
-                direction = 4
+            direction -= 1 if direction > 1 else -3
         if V == 'D':  # 우회전
-            direction += 1
-            if direction == 5:
-                direction = 1
+            direction += 1 if direction < 4 else -3
 
 print(count)
