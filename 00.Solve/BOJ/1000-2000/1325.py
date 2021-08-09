@@ -4,7 +4,7 @@ from collections import deque
 
 def bfs(start):
     count = 1
-    visited = [False for _ in range(n + 1)]
+    visited = [False] * (n + 1)
     visited[start] = True
     queue = deque([start])
 
@@ -29,10 +29,11 @@ hacking = []
 max_hacking = 0
 for i in range(1, n + 1):
     result = bfs(i)
-    if max_hacking == result:
-        hacking.append(i)
     if max_hacking < result:
         max_hacking = result
         hacking = [i]
+        continue
+    if max_hacking == result:
+        hacking.append(i)
 
 print(*hacking)
