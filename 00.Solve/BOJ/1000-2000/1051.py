@@ -1,5 +1,10 @@
 from sys import stdin
 
+'''
+    '꼭짓점에 쓰여 있는 수가 모두 같은 가장 큰 정사각형을 찾는...' 이라고 하길래
+    그냥 점 1개도 크기 1 짜리 정사각형으로 치는지 전혀 몰랐다.
+'''
+
 
 def search_square():
     global standard
