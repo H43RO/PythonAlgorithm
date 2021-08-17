@@ -1,17 +1,17 @@
 from sys import stdin
 
-'''
+"""
 '꼭짓점에 쓰여 있는 수가 모두 같은 가장 큰 정사각형을 찾는...' 이라고 하길래
 그냥 점 1개도 크기 1 짜리 정사각형으로 치는지 전혀 몰랐다.
-'''
+"""
 
 
 def search_square():
-    global standard
     """
     변의 길이를 최대에서 1씩 줄여가며, 탐색 가능한 범위 내에서 꼭짓점 4 좌표를 모두 검사
-    :return: 꼭짓점에 쓰여있는 수가 모두 같은 가장 큰 정사각형의 '변'의 길이
+    :return:    꼭짓점에 쓰여있는 수가 모두 같은 가장 큰 정사각형의 '변'의 길이
     """
+    global standard
     while standard:
         for i in range(n - standard):
             for j in range(m - standard):
