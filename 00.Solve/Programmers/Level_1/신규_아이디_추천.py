@@ -9,16 +9,9 @@ def solution(new_id):
             temp.append(x)
 
     # 3단계
-    # id = id.replace("..", ".")
-    prev = ''
-    string = []
-    for x in temp:
-        if prev == '.' and x == '.':
-            continue
-        prev = x
-        string.append(x)
-    id = ''.join(string)
-
+    id = ''.join(temp)
+    while '..' in id:
+        id = id.replace('..', '.')
 
     # 4단계
     id = id.lstrip('.').rstrip('.')
