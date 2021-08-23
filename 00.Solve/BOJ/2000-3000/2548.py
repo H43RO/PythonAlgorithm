@@ -21,8 +21,8 @@ def bp_solve():
     for x in data:
         temp = 0
         for a in data:
-            temp += abs(x - a)
-        min_result = min(min_result, (temp, x))
+            temp += abs(x - a)  # 차이의 합 계산
+        min_result = min(min_result, (temp, x))  # 가장 적은 합으로 갱신
     print(min_result[1])
     exit()
 

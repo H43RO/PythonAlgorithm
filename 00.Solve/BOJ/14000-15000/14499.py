@@ -36,10 +36,10 @@ for cmd in command_list:
     if 0 <= nx < n and 0 <= ny < m:  # 맵 밖을 벗어나지 않으면 진행
         x, y = nx, ny  # 주사위 이동
         move(cmd)
-        if graph[x][y] == 0:
-            graph[x][y] = dice[5]
-        else:
-            dice[5] = graph[x][y]
+        if graph[x][y] == 0:  # 바닥이 0이면
+            graph[x][y] = dice[5]  # 바닥에 주사위 밑면 복사
+        else:  # 바닥이 0이 아니라면
+            dice[5] = graph[x][y]  # 주사위 바닥면에 밟고 있는 값 이동
             graph[x][y] = 0
 
         print(dice[0])
