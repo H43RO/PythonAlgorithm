@@ -1,16 +1,15 @@
 from itertools import permutations
+from sys import stdin
 
 num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-k = int(input())
-sign = list(input().split())
-
-# 입력 범위가 크지않아, 가능한 모든 경우의 순열 리스트 생성
-data = list(permutations(num, k + 1))
+k = int(stdin.readline())
+sign = list(stdin.readline().split())
 
 result = []
 
-for x in data:
+# 입력 범위가 크지않아, 가능한 모든 경우의 순열 리스트 생성
+for x in list(permutations(num, k + 1)):
     available = True
     for i in range(k):
         # 부등호 순서대로 조건에 부합하는지 검사
