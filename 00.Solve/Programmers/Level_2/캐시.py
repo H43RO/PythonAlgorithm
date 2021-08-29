@@ -3,19 +3,16 @@ from collections import deque
 
 def solution(cacheSize, cities):
     answer = 0
-    cache = deque([])
+    cache = deque([], maxlen=cacheSize)
 
     for x in cities:
         city = x.lower()
         if city in cache:
             answer += 1
             cache.remove(city)
-            cache.appendleft(city)
         else:
             answer += 5
-            cache.appendleft(city)
-            if len(cache) > cacheSize:
-                cache.pop()
+        cache.appendleft(city)
     return answer
 
 
