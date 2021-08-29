@@ -6,11 +6,11 @@ def solution(cacheSize, cities):
     cache = deque([], maxlen=cacheSize)
 
     for x in cities:
-        city = x.lower()
-        if city in cache:
+        city = x.lower()  # 대소문자 구분 X
+        if city in cache:  # 캐시 히트
             answer += 1
             cache.remove(city)
-        else:
+        else:  # 캐시 미스
             answer += 5
         cache.appendleft(city)
     return answer
