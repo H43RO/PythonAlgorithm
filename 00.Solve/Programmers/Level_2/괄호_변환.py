@@ -48,3 +48,7 @@ def solution(p):
 print(solution("(()())()"))
 print(solution(")("))
 print(solution("()))((()"))
+
+# 2020 카카오 블라인드 공채 2번
+# 정답률 23.1%
+# - 23분 소요

@@ -37,3 +37,8 @@ print(solution(
      "cpp and - and senior and pizza 250", "- and backend and senior and - 150", "- and - and - and chicken 100",
      "- and - and - and - 150"]
 ))
+
+# 2021 카카오 블라인드 공채 3번
+# 정답률 정확성 44.07%, 효율성 4.49%
+# 정확성 정답 - 20분 소요 (dict 로 사람 특성 모두 저장해두고 조건분기 브루트 포스 이용)
+# 효율성 정답 - 55분 소요 (처음부터 갈아치움, 조건분기를 처음부터 저장해두고 이분탐색)
