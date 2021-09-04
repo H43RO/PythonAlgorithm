@@ -6,7 +6,7 @@ data = list(map(int, stdin.readline().split()))
 cum = sum(data[:k])
 result = cum
 
-for i in range(0, len(data) - k):
+for i in range(len(data) - k):
     cum = cum - data[i] + data[i + k]
     result = max(result, cum)
 
