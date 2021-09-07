@@ -27,12 +27,8 @@ def solution(n, s, a, b, fares):
     # 경유하는 지점을 하나씩 바꿔가며 최단거리 탐색
     result = sys.maxsize
     for i in range(1, n + 1):
-        if i == a or i == b or i == s:
-            continue
+        # 알아서 엣지 케이스도 처리 됨 (e.g. 합승 안 할 때 더 빠른 경우, B 로 가는 길에 A 가 있는 경우 등)
         result = min(result, graph[a][i] + graph[i][b] + graph[i][s])
-
-    # 엣지 케이스 처리 (e.g. 합승 안 할 때 더 빠른 경우, B 로 가는 길에 A 가 있는 경우 등)
-    result = min(result, graph[s][a] + graph[s][b], graph[a][b] + graph[b][s], graph[a][b] + graph[a][s])
 
     return result
 
