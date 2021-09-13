@@ -24,5 +24,6 @@ def solution(N, stages):
 print(solution(5, [2, 1, 2, 6, 2, 4, 3, 3]))
 print(solution(4, [4, 4, 4, 4, 4]))
 
-# 정답률
+# 2019 카카오 블라인드 공채 1차 2번
+# 정답률 : 55.57%
 # - 5분 소요
