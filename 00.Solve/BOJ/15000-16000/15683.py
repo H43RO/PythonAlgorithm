@@ -38,10 +38,10 @@ def watch(index, matrix, blind_spot):
             while (0 <= nx < n and 0 <= ny < m) and temp[nx][ny] != 6:  # 유효한 범위 안에 있고 벽을 만나지 않은 경우
                 if temp[nx][ny] == 0:  # 감시 가능한 경우
                     temp[nx][ny] = -1  # '감시 당함' 표시로 -1 삽입
-                    watch_spot += 1    # 감시 당하는 구역 1 증가
+                    watch_spot += 1  # 감시 당하는 구역 1 증가
                     continue
 
-                # 방향에 따라 진행 (CCTV 투과 동작 포함)
+                # 다른 CCTV 랑 감시구역 겹치는 경우 방향에 맞게 한 칸 더 진행
                 nx += dx[x]
                 ny += dy[x]
 
