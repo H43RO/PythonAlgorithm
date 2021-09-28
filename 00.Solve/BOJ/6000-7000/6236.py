@@ -25,7 +25,8 @@ while start <= end:
 
     if count <= m:  # M번 보다 적거나 같게 인출했다면
         end = mid - 1  # 범위를 앞으로 빼서 탐색 (인출 금액을 최소화해보기)
-        result = min(result, mid)
+        result = mid
     else:  # 인출 횟수 초과
         start = mid + 1  # 범위 뒤로 빼서 탐색 (인출 금액을 늘려보기)
+
 print(result)
