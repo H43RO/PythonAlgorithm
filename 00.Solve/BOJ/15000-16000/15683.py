@@ -5,12 +5,12 @@ from copy import deepcopy
 dx = [0, 1, 0, -1]
 dy = [-1, 0, 1, 0]
 
-direction = {  # 회전 고려한 감시 방향 모든 경우의 수
-    1: [[0], [1], [2], [3]],
-    2: [[0, 2], [1, 3]],
-    3: [[0, 1], [1, 2], [2, 3], [3, 0]],
-    4: [[0, 1, 2], [1, 2, 3], [2, 3, 0], [3, 0, 1]],
-    5: [[0, 1, 2, 3]]
+direction = {  # CCTV 종류에 따른 회전 고려한 감시 방향의 모든 경우의 수
+    1: [(0,), (1,), (2,), (3,)],
+    2: [(0, 2), (1, 3)],
+    3: [(0, 1), (1, 2), (2, 3), (3, 0)],
+    4: [(0, 1, 2), (1, 2, 3), (2, 3, 0), (3, 0, 1)],
+    5: [(0, 1, 2, 3)]
 }
 
 
@@ -24,34 +24,28 @@ def watch(index, matrix, blind_spot):
         result = min(result, blind_spot)
         return
 
-    cctv_x, cctv_y = cctv[index]
-    cctv_type = data[cctv_x][cctv_y]
+    cctv_x, cctv_y = cctv[index]  # 현재 탐색중인 CCTV 의 좌표
+    cctv_type = data[cctv_x][cctv_y]  # 현재 탐색중인 CCTV 가 어떤 놈인지
 
-    for dir in direction[cctv_type]:
-        current_blind_spot = blind_spot
-        temp = deepcopy(matrix)
+    for dir in direction[cctv_type]:  # 해당 CCTV 타입에 맞는 방향 벡터 하나씩 탐색
+        current_blind_spot = blind_spot  # 현재 탐색중인 CCTV 감시 방향에 따른 사각지대 크기 탐색
+        temp = deepcopy(matrix)  # 데이터 변형이 이루어지므로 원본 냅두고 그래프 복사본 따로 생성
 
-        for x in dir:
-            not_blind_spot = 0  # 알고보니 사각지대가 아니였던 구역의 수
-            nx, ny = cctv_x + dx[x], cctv_y + dy[x]
+        for x in dir:  # 방향 벡터 하나씩 뜯어보기
+            watch_spot = 0  # 감시 당하는 구역의 크기
+            nx, ny = cctv_x + dx[x], cctv_y + dy[x]  # 현재 CCTV 감시 방향에 따라 이동해보기
 
-            while True:
-                if not (0 <= nx < n and 0 <= ny < m):  # 유효하지 않은 영역
-                    break
-                if temp[nx][ny] == 6:  # 벽 만났을 경우
-                    break
-
+            while (0 <= nx < n and 0 <= ny < m) and temp[nx][ny] != 6:  # 유효한 범위 안에 있고 벽을 만나지 않은 경우
                 if temp[nx][ny] == 0:  # 감시 가능한 경우
-                    temp[nx][ny] = -1  # 감시 당함
-                    not_blind_spot += 1
+                    temp[nx][ny] = -1  # '감시 당함' 표시로 -1 삽입
+                    watch_spot += 1    # 감시 당하는 구역 1 증가
                     continue
 
-                # 방향에 따라 진행
+                # 방향에 따라 진행 (CCTV 투과 동작 포함)
                 nx += dx[x]
                 ny += dy[x]
 
-            current_blind_spot -= not_blind_spot  # 사각지대 감소
-
+            current_blind_spot -= watch_spot  # 감시 당하는 구역 크기만큼 사각지대 감소
         watch(index + 1, temp, current_blind_spot)
 
 
@@ -72,7 +66,7 @@ for i in range(n):
             cctv.append((i, j))
 
 if len(cctv) == 0:
-    print(0)
+    print(blind_spot)
     exit(0)
 
 watch(0, data, blind_spot)
