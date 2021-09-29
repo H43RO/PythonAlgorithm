@@ -72,7 +72,7 @@ for i in range(n):
             cctv.append((i, j))
 
 if len(cctv) == 0:
-    print(0)
+    print(blind_spot)
     exit(0)
 
 watch(0, data, blind_spot)
