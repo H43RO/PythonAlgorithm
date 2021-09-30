@@ -12,6 +12,12 @@ for _ in range(n):
 max_pillar = max(pillar, key=pillar.get)  # 가장 높은 높이의 기둥 번호
 result = pillar[max_pillar]
 
+"""
+기본 아이디어
+- 왼쪽 끝과 오른쪽 끝에서부터 좁혀가며 가장 높은 기둥까지 탐색
+- 매 회 탐색 당시 가장 높은 기둥의 높이값을 더해줌 (오목한 형태 불가능하기 때문) 
+"""
+
 temp = 0
 for i in range(0, max_pillar):
     if i in pillar:
