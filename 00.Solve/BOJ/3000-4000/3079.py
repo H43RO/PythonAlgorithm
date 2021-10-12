@@ -22,7 +22,7 @@ while start <= end:
         end = mid - 1
         result = mid
     # 조건 불만족 시에는, 탐색 범위 오른쪽으로 하여
-    # 더 긴 시간 탐색
+    # 더 긴 심사 시간 탐색
     else:
         start = mid + 1
 
