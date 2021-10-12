@@ -4,7 +4,7 @@ from sys import stdin
 def sort_graph(graph, command):
     result = []
 
-    if command == "C":  # 연산의 편의를 위해 우선 회전
+    if command == "C":  # 연산의 편의를 위해 전치시킴
         graph = list(map(list, zip(*graph)))
 
     # R, C 공통 연산
@@ -27,8 +27,8 @@ def sort_graph(graph, command):
             x.append(0)  # 길이가 같아질 때까지 0 추가
         x = x[:100]  # 만약 길이가 100이 넘어가면 100 넘어가는 부분 몽땅 버림
 
-    if command == "C":  # 만약 C 연산이었다면, 마지막에 회전 한 번 더 해야 함
-        result = list(map(list, zip(*result)))  # 90도 회전
+    if command == "C":  # 만약 C 연산이었다면, 마지막에 다시 전치시켜야 함 (원상 복구)
+        result = list(map(list, zip(*result)))
 
     return result
 
