@@ -32,12 +32,10 @@ for x, y in island:
         graph[x][y] = '.'
 
 start_row = 0
-start_col = 0
 end_row = 0
-end_col = 0
 
-min_index = c - 1
-max_index = 0
+start_col = c - 1
+end_col = 0
 
 for i in range(r):
     if 'X' in graph[i]:
@@ -53,13 +51,11 @@ for i in range(start_row, end_row + 1):
     tmp = [i for i, v in enumerate(graph[i]) if v == 'X']
     if not tmp:
         continue
-    min_tmp = tmp[0]
-    max_tmp = tmp[-1]
 
-    min_index = min(min_index, min_tmp)
-    max_index = max(max_index, max_tmp)
+    start_col = min(start_col, tmp[0])
+    end_col = max(end_col, tmp[-1])
 
 for i in range(start_row, end_row + 1):
-    for j in range(min_index, max_index + 1):
+    for j in range(start_col, end_col + 1):
         print(graph[i][j], end='')
     print()
