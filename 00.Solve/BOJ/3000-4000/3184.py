@@ -8,9 +8,9 @@ dy = [0, 0, -1, 1]
 def bfs(i, j):
     global sheep_count, wolf_count
 
-    sheep = 0
-    wolf = 0
+    sheep, wolf = 0, 0  # 양과 늑대 마릿수 저장
 
+    # 양인지 늑대인지 구분하여 카운트 증가
     if graph[i][j] == 'v':
         wolf += 1
     elif graph[i][j] == 'o':
@@ -28,16 +28,18 @@ def bfs(i, j):
             if 0 <= nx < r and 0 <= ny < c and graph[nx][ny] != '#':
                 queue.append((nx, ny))
 
+                # 양과 늑대 마릿수 저장
                 if graph[nx][ny] == 'v':
                     wolf += 1
                 elif graph[nx][ny] == 'o':
                     sheep += 1
 
+                # 방문처리 겸 울타리 처리
                 graph[nx][ny] = '#'
 
-    if sheep > wolf:
+    if sheep > wolf:  # 만약 양이 더 많으면 늑대 쫓아냄
         wolf = 0
-    else:
+    else:  # 아니라면 양 다 죽음
         sheep = 0
 
     sheep_count += sheep
