@@ -10,12 +10,12 @@ sum_total = roma[A[-1]]
 for i, v in enumerate(A):
     if i < len(A) - 1:
         if roma[v] < roma[A[i + 1]]:
-            sum_total -= roma[v]
+            sum_total -= roma[v]  # 뒤에 더 큰 숫자가 있다면 값 빼줌
         else:
             sum_total += roma[v]
 
 sum_total += roma[B[-1]]
-for i, v in enumerate(B):
+for i, v in enumerate(B):  # 위 루프와 동일 로직
     if i < len(B) - 1:
         if roma[v] < roma[B[i + 1]]:
             sum_total -= roma[v]
