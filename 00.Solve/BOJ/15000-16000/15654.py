@@ -1,4 +1,4 @@
-from sys import stdin, stdout
+from sys import stdin
 
 n, m = map(int, stdin.readline().split())
 num = list(map(int, stdin.readline().split()))
