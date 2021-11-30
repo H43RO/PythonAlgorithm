@@ -2,12 +2,18 @@ from sys import stdin
 
 
 def operation_1():
+    """
+    상하반전
+    """
     global graph
 
     graph = graph[::-1]
 
 
 def operation_2():
+    """
+    좌우 반전
+    """
     global graph
 
     for i in range(n):
@@ -15,72 +21,90 @@ def operation_2():
 
 
 def operation_3():
+    """
+    오른쪽으로 90도 회전
+    """
     global n, m, graph
 
     n, m = m, n
-    temp = [list(row)[::-1] for row in zip(*graph)]
+    temp = [list(x)[::-1] for x in zip(*graph)]
 
     graph = temp
 
 
 def operation_4():
+    """
+    왼쪽으로 90도 회전
+    """
     global n, m, graph
 
     n, m = m, n
-    temp = [list(row) for row in list(zip(*graph))[::-1]]
+    temp = [list(x) for x in list(zip(*graph))[::-1]]
 
     graph = temp
 
 
 def operation_5():
+    """
+    부분 배열 시계방향 회전
+    """
     global graph
 
-    temp = [[0] * m for _ in range(n)]
+    temp = [[0] * m for _ in range(n)]  # 회전한 결과를 담을 변수
 
-    n_temp = n // 2
+    n_temp = n // 2  # 부분 배열 쪼개기
     m_temp = m // 2
 
     for i in range(n_temp):
-        for j in range(m_temp):
+        for j in range(m_temp):  # 1번 그룹을 2번 그룹으로
             temp[i][m_temp + j] = graph[i][j]
+
     for i in range(n_temp):
-        for j in range(m_temp, m):
+        for j in range(m_temp, m):  # 2번 그룹을 3번 그룹으로
             temp[n_temp + i][j] = graph[i][j]
+
     for i in range(n_temp, n):
-        for j in range(m_temp, m):
+        for j in range(m_temp, m):  # 3번 그룹을 4번 그룹으로
             temp[i][j - m_temp] = graph[i][j]
+
     for i in range(n_temp, n):
-        for j in range(m_temp):
+        for j in range(m_temp):  # 4번 그룹을 1번 그룹으로
             temp[i - n_temp][j] = graph[i][j]
 
     for i in range(n):
         for j in range(m):
-            graph[i][j] = temp[i][j]
+            graph[i][j] = temp[i][j]  # 변경된 그래프 갱신
 
 
 def operation_6():
+    """
+    부분배열 반시계 방향 회전
+    """
     global graph
-    temp = [[0] * m for _ in range(n)]
+    temp = [[0] * m for _ in range(n)]  # 회전한 결과를 담을 변수
 
-    n_temp = n // 2
+    n_temp = n // 2  # 부분 배열 쪼개기
     m_temp = m // 2
 
     for i in range(n_temp):
-        for j in range(m_temp):
+        for j in range(m_temp):  # 1번 그룹을 4번 그룹으로
             temp[n_temp + i][j] = graph[i][j]
+
     for i in range(n_temp, n):
-        for j in range(m_temp):
+        for j in range(m_temp):  # 4번 그룹을 3번 그룹으로
             temp[i][j + m_temp] = graph[i][j]
+
     for i in range(n_temp, n):
-        for j in range(m_temp, m):
+        for j in range(m_temp, m):  # 3번 그룹을 2번 그룹으로
             temp[i - n_temp][j] = graph[i][j]
+
     for i in range(n_temp):
-        for j in range(m_temp, m):
+        for j in range(m_temp, m):  # 2번 그룹을 1번 그룹으로
             temp[i][j - m_temp] = graph[i][j]
 
     for i in range(n):
         for j in range(m):
-            graph[i][j] = temp[i][j]
+            graph[i][j] = temp[i][j]  # 변경된 그래프 갱신
 
 
 n, m, r = map(int, stdin.readline().split())
