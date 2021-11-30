@@ -11,12 +11,12 @@ for _ in range(m):
     graph[a].append(b)
     graph[b].append(a)
 
-count = -1
+queue = deque([(1, 0)])  # 노드 번호, 거리 (탐색 시작 노드 1번)
+
 visited = [False] * (n + 1)
 visited[1] = True
 
-queue = deque([(1, 0)])  # 노드 번호, 거리
-
+count = -1
 while queue:
     x, dist = queue.popleft()
     if dist <= 2:
