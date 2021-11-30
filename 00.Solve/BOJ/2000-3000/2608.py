@@ -24,21 +24,21 @@ for i, v in enumerate(B):  # 위 루프와 동일 로직
 
 print(sum_total)
 
-arabic_result = []
+roma_result = []
 for x in reversed(arabic.keys()):  # 큰 숫자부터 차례로 처리
     while x <= sum_total:
         # 처리해줘야 할 예외 숫자는 4 아니면 9로 시작
         if str(sum_total).startswith('4'):
             sum_total -= 4 * x
-            arabic_result.append(arabic[x])
-            arabic_result.append(arabic[x * 5])
+            roma_result.append(arabic[x])
+            roma_result.append(arabic[x * 5])
         elif str(sum_total).startswith('9'):
             x //= 5
             sum_total -= 9 * x
-            arabic_result.append(arabic[x])
-            arabic_result.append(arabic[x * 10])
+            roma_result.append(arabic[x])
+            roma_result.append(arabic[x * 10])
         else:
             sum_total -= x
-            arabic_result.append(arabic[x])
+            roma_result.append(arabic[x])
 
-print(''.join(arabic_result))
+print(''.join(roma_result))
