@@ -1,8 +1,8 @@
 from sys import stdin
 from collections import deque
 
-N = int(stdin.readline())
-graph = [[0] * N for _ in range(N)]  # 그래프 0 으로 초기화
+n = int(stdin.readline())
+graph = [[0] * n for _ in range(n)]  # 그래프 0 으로 초기화
 
 K = int(stdin.readline())
 for _ in range(K):  # 그래프에 사과 위치 표시
@@ -23,7 +23,7 @@ while True:
     nx, ny = x + vector[direction][0], y + vector[direction][1]  # 새로운 뱀 대가리 좌표
 
     # >>> 뱀 좌표 이동 시퀀스 <<<
-    if (0 <= nx < N and 0 <= ny < N) and ((nx, ny) not in snake):  # 맵 밖으로 벗어나거나, 자기 몸이랑 부딪히면 게임 종료
+    if (0 <= nx < n and 0 <= ny < n) and ((nx, ny) not in snake):  # 맵 밖으로 벗어나거나, 자기 몸이랑 부딪히면 게임 종료
         snake.append((nx, ny))  # 뱀 대가리 이동
         if graph[nx][ny] == 1:  # 사과 먹은거면 꼬리 유지 (몸 길이 1 증가)
             graph[nx][ny] = 0

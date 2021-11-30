@@ -1,6 +1,6 @@
 from sys import stdin
 
-N, L = map(int, stdin.readline().split())
+n, L = map(int, stdin.readline().split())
 water = sorted(list(map(int, stdin.readline().split())))  # 물이 새는 곳의 위치 (정렬됨)
 
 start = water[0]  # 처음 물 새는 곳부터 테이핑

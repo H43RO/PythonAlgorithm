@@ -32,14 +32,14 @@ def bfs(M, N, box):
     return days
 
 
-M, N = map(int, stdin.readline().split())
+m, n = map(int, stdin.readline().split())
 box, ripe = [], deque()
-for i in range(N):
+for i in range(n):
     row = list(map(int, stdin.readline().split()))
-    for j in range(M):
+    for j in range(m):
         # 익은 토마토가 있다면 익은 토마토 목록에 추가
         if row[j] == 1:
             ripe.append([i, j])
     box.append(row)
 
-print(bfs(M, N, box))
+print(bfs(m, n, box))

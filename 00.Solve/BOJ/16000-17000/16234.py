@@ -20,7 +20,7 @@ def bfs(visited, i, j):
         for i in range(4):
             nx = x + dx[i]
             ny = y + dy[i]
-            if 0 <= nx < N and 0 <= ny < N and not visited[nx][ny]:
+            if 0 <= nx < n and 0 <= ny < n and not visited[nx][ny]:
                 if L <= abs(graph[x][y] - graph[nx][ny]) <= R:  # 연합 가능한 인구 차이
                     union_list.append((nx, ny))  # 연합 리스트에 추가
                     people += graph[nx][ny]  # 인구수 데이터 추가
@@ -35,16 +35,16 @@ def bfs(visited, i, j):
     return True if len(union_list) > 1 else False  # 연합이 시작점 단 하나일 경우 연합 없는 것
 
 
-N, L, R = map(int, stdin.readline().split())
-graph = [list(map(int, stdin.readline().split())) for _ in range(N)]
+n, L, R = map(int, stdin.readline().split())
+graph = [list(map(int, stdin.readline().split())) for _ in range(n)]
 
 count = 0
 while True:
     # 모든 좌표에 대해 BFS 돌아야함 (방문처리 해주면서) -> 국경선 개방
-    visited = [[False] * N for _ in range(N)]
+    visited = [[False] * n for _ in range(n)]
     available = False
-    for i in range(N):
-        for j in range(N):
+    for i in range(n):
+        for j in range(n):
             if not visited[i][j]:  # 방문하지 않은 국가에 대해 탐색 시작
                 has_union = bfs(visited, i, j)  # 열 수 있는 모든 국경선 개방
                 if has_union:

@@ -21,19 +21,19 @@ def bfs(graph, start, visited):
     return count
 
 
-N, M = map(int, stdin.readline().split())
-graph = [[] for _ in range(N + 1)]  # 친구 관계를 담는 그래프
+n, m = map(int, stdin.readline().split())
+graph = [[] for _ in range(n + 1)]  # 친구 관계를 담는 그래프
 kevin = []  # 케빈 베이컨 지수를 차례대로 담을 배열
 
-for _ in range(M):
+for _ in range(m):
     # 양방향 관계 그래프에 명시
     a, b = map(int, stdin.readline().split())
     graph[a].append(b)
     graph[b].append(a)
 
 # 1번부터 N번 각각의 케빈 베이컨 지수 계산
-for i in range(1, N + 1):
-    visited = [False] * (N + 1)
+for i in range(1, n + 1):
+    visited = [False] * (n + 1)
     kevin.append(bfs(graph, i, visited))
 
 # 케빈 베이컨 지수가 가장 낮은 사람의 번호 출력 (Zero-base)

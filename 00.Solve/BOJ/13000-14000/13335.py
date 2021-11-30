@@ -2,7 +2,7 @@ from sys import stdin, stdout
 from collections import deque
 
 # N (다리를 건너는 트럭 수) , W (다리 길이), L (다리의 최대하중)
-N, W, L = map(int, stdin.readline().split())
+n, W, L = map(int, stdin.readline().split())
 
 # 트럭의 무게 리스트를 덱 형태로 입력 받음 (앞에서부터 순서대로 출력하기 위해)
 truck = deque(list(map(int, stdin.readline().split())))

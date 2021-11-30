@@ -6,10 +6,10 @@ num = {
     8: "eight", 9: "nine"
 }
 
-M, N = map(int, stdin.readline().split())
+m, n = map(int, stdin.readline().split())
 data = []
 
-for i in range(M, N + 1):
+for i in range(m, n + 1):
     temp = ""
     for x in str(i):  # 숫자 자릿수 하나하나 탐색
         temp += num[int(x)]  # 매핑되는 문자열 추가해줌

@@ -1,6 +1,6 @@
 from sys import stdin
 
-N, S, R = map(int, stdin.readline().split())
+n, S, R = map(int, stdin.readline().split())
 damaged = list(map(int, stdin.readline().split()))
 left = list(map(int, stdin.readline().split()))
 

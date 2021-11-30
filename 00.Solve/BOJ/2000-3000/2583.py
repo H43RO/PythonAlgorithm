@@ -4,8 +4,8 @@ from collections import deque
 dx = [0, 1, 0, -1]
 dy = [1, 0, -1, 0]
 
-N, M, K = map(int, stdin.readline().split())
-graph = [[0] * M for _ in range(N)]
+n, m, K = map(int, stdin.readline().split())
+graph = [[0] * m for _ in range(n)]
 section = []
 
 
@@ -20,7 +20,7 @@ def bfs(x, y):
             nx = x + dx[i]
             ny = y + dy[i]
             # 그래프 공간을 벗어난 경우 무시
-            if nx < 0 or nx >= N or ny < 0 or ny >= M:
+            if nx < 0 or nx >= n or ny < 0 or ny >= m:
                 continue
             # 이전에 그렸던 직사각형 영역이거나, 방문했던 곳이면 무시
             if graph[nx][ny] == 1:
@@ -45,8 +45,8 @@ for _ in range(K):
 
 # 직사각형 영역, 방문했던 영역 나머지 부분에 대하여 BFS 탐색 수행
 # - 직사각형 영역, 방문한 영역 모두 1로 처리
-for i in range(N):
-    for j in range(M):
+for i in range(n):
+    for j in range(m):
         if graph[i][j] == 0:
             # 반환 받은 영역의 넓이 저장
             section.append(bfs(i, j))

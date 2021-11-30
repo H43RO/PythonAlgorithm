@@ -13,11 +13,11 @@ def solve(n):
 
 
 n = int(input())
-arr = list(map(int, input().split()))
+graph = list(map(int, input().split()))
 
 result = 0
 
-for i in arr:
+for i in graph:
     if solve(i):
         result += 1
 

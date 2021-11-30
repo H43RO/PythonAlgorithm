@@ -1,12 +1,12 @@
 from itertools import permutations
 
-N, M = map(int, input().split())
+n, m = map(int, input().split())
 data = list(map(int, input().split()))
 data = sorted(data)
 
 result = []
 
-for numbers in list(permutations(data, M)):
+for numbers in list(permutations(data, m)):
     result.append(numbers)
 result = sorted(list(set(result)))
 

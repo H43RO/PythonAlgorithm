@@ -1,2 +1,2 @@
-N, M = map(int, input().split())
-print(N * M - 1)
+n, m = map(int, input().split())
+print(n * m - 1)

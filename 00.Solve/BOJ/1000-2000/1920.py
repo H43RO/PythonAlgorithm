@@ -1,10 +1,10 @@
 import sys
 
 n = sys.stdin.readline()
-N = sorted(list(map(int, sys.stdin.readline().split())))
+n = sorted(list(map(int, sys.stdin.readline().split())))
 
 m = sys.stdin.readline()
-M = list(map(int, sys.stdin.readline().split()))
+m = list(map(int, sys.stdin.readline().split()))
 
 
 def binary_search(array, target, start, end):
@@ -24,8 +24,8 @@ def binary_search(array, target, start, end):
         return binary_search(array, target, mid + 1, end)
 
 
-for x in M:
+for x in m:
     start = 0
-    end = len(N) - 1
-    print(binary_search(array=N, target=x, start=start, end=end))
+    end = len(n) - 1
+    print(binary_search(array=n, target=x, start=start, end=end))
 

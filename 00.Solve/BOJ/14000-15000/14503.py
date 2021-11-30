@@ -4,7 +4,7 @@ from sys import stdin, stdout
 vector = {0: (-1, 0), 1: (0, 1), 2: (1, 0), 3: (0, -1)}
 
 # 그래프 크기 세로 N, 가로 M
-N, M = map(int, stdin.readline().split())
+n, m = map(int, stdin.readline().split())
 # 로봇 청소기 현재 좌표 (R, C), 방향 D (북: 0, 동: 1, 남: 2, 서 : 3)
 R, C, D = map(int, stdin.readline().split())
 
@@ -12,7 +12,7 @@ graph = []  # 빈 곳 : 0, 벽 : 1, 청소된 곳 : 2
 result = 0  # 로봇 청소기가 청소하는 칸의 개수
 
 # 그래프 정보 입력
-for x in range(N):
+for x in range(n):
     graph.append(list(map(int, stdin.readline().split())))
 
 while True:

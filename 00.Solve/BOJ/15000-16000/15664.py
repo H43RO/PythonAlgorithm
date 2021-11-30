@@ -1,10 +1,10 @@
 from itertools import combinations
 
-N, M = map(int, input().split())
+n, m = map(int, input().split())
 data = sorted(list(map(int, input().split())))
 result = []
 
-for x in list(combinations(data, M)):
+for x in list(combinations(data, m)):
     if x not in result:
         result.append(x)
 
